@@ -300,27 +300,46 @@ const App = (() => {
         }
     }
 
+    function normalize(s) {
+        // lowercase, normalize whitespace, strip trailing punctuation
+        // Also normalize spacing around punctuation: "word,word" → "word, word"
+        return s.trim().toLowerCase()
+            .replace(/[,;:]/g, ' $& ')    // pad commas/semicolons/colons with spaces
+            .replace(/[.!?]+$/g, '')       // drop trailing .!?
+            .replace(/\s+/g, ' ')          // collapse spaces
+            .replace(/['']/g, "'")
+            .replace(/[""]/g, '"')
+            .trim();
+    }
+
     function compare(a, b) {
-        const n = s => s.trim().replace(/\s+/g, ' ').replace(/[.!?,,;:]$/, '').toLowerCase()
-                         .replace(/['']/g, "'").replace(/[""]/g, '"');
-        return n(a) === n(b);
+        return normalize(a) === normalize(b);
+    }
+
+    // Split into tokens, keeping punctuation as separate tokens for comparison
+    function tokenize(s) {
+        return s.trim().toLowerCase()
+            .replace(/([,;:.!?])/g, ' $1 ')  // split punctuation to own tokens
+            .replace(/\s+/g, ' ')
+            .trim()
+            .split(' ');
     }
 
     function showDiff(eid, idx, user, exp) {
         const cmp = $(`#cmp-${eid}-${idx}`);
         if (!cmp) return;
         cmp.className = 'sentence-cmp show err';
-        const uw = user.trim().split(/\s+/);
-        const ew = exp.trim().split(/\s+/);
+        const uw = tokenize(user);
+        const ew = tokenize(exp);
         const max = Math.max(uw.length, ew.length);
         let h = '';
         for (let i = 0; i < max; i++) {
-            const a = (uw[i] || '').toLowerCase().replace(/[.!?,,;:]$/, '');
-            const b = (ew[i] || '').toLowerCase().replace(/[.!?,,;:]$/, '');
-            if (i >= uw.length) h += ` <span class="diff-word" style="color:#E07A5F;">[?]</span>`;
+            const a = (uw[i] || '');
+            const b = (ew[i] || '');
+            if (i >= uw.length) h += ` <span class="diff-word" style="color:#E07A5F;">[缺]</span>`;
             else if (i >= ew.length) h += ` <span class="diff-word diff-bad">${esc(uw[i])}</span>`;
             else if (a === b) h += ` ${esc(uw[i])}`;
-            else h += ` <span class="diff-word diff-ok">${esc(uw[i])}</span>`;
+            else h += ` <span class="diff-word diff-ok" title="参考: ${esc(ew[i])}">${esc(uw[i])}</span>`;
         }
         cmp.innerHTML = `<strong>参考:</strong> ${esc(exp)}<br><strong>你写:</strong> ${h.trim()}`;
     }
