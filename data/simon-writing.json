@@ -1,0 +1,1269 @@
+{
+  "id": "simon-writing",
+  "icon": "📝",
+  "title": "Simon 写作范文全集 — Task 1 & Task 2",
+  "description": "Simon Corcoran (前雅思考官) Band 9 范文，含中英对照，区分大作文/小作文",
+  "essays": [
+    {
+      "id": "t2-01",
+      "title": "Minority Languages",
+      "titleCn": "少数民族语言",
+      "topic": "Should governments spend money saving endangered languages?",
+      "topicCn": "政府是否应该花钱拯救濒危的少数民族语言？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 258,
+      "sentences": [
+        {
+          "english": "It is true that some minority languages may disappear in the near future.",
+          "chinese": "确实，一些少数民族语言在不久的将来可能会消失。"
+        },
+        {
+          "english": "Although it can be argued that governments could save money by allowing this to happen, I believe that these languages should be protected and preserved.",
+          "chinese": "虽然有人认为政府可以任由这种情况发生来省钱，但我认为这些语言应该受到保护与保存。"
+        },
+        {
+          "english": "There are several reasons why saving minority languages could be seen as a waste of money.",
+          "chinese": "有若干理由可以说明为何拯救少数民族语言可能被视为浪费金钱。"
+        },
+        {
+          "english": "Firstly, if a language is only spoken by a small number of people, expensive education programmes will be needed to make sure that more people learn it, and the state will have to pay for facilities, teachers and marketing.",
+          "chinese": "首先，若一种语言只有少数人使用，就需要昂贵的教育项目来确保更多人学习它，国家还必须为设施、师资和推广买单。"
+        },
+        {
+          "english": "This money might be better spent on other public services.",
+          "chinese": "这笔钱也许更应该花在其他公共服务上。"
+        },
+        {
+          "english": "Secondly, it would be much cheaper and more efficient for countries to have just one language.",
+          "chinese": "其次，国家仅使用一种语言会更加便宜和高效。"
+        },
+        {
+          "english": "Governments could cut all kinds of costs related to communicating with each minority group.",
+          "chinese": "政府可以削减与各少数民族群体沟通相关的各种开支。"
+        },
+        {
+          "english": "Despite the above arguments, I believe that governments should try to preserve languages that are less widely spoken.",
+          "chinese": "尽管有上述论点，我仍认为政府应努力保护那些使用不那么广泛的语言。"
+        },
+        {
+          "english": "A language is much more than simply a means of communication; it has a vital connection with the cultural identity of the people who speak it.",
+          "chinese": "语言远不仅是沟通工具；它与使用者群体的文化认同有着至关重要的联系。"
+        },
+        {
+          "english": "If a language disappears, a whole way of life will disappear with it, and we will lose the rich cultural diversity that makes societies more interesting.",
+          "chinese": "若一种语言消失，整个生活方式也将随之消失，我们将失去使社会丰富多彩的文化多样性。"
+        },
+        {
+          "english": "By spending money to protect minority languages, governments can also preserve traditions, customs and behaviours that are part of a country's history.",
+          "chinese": "通过花钱保护少数民族语言，政府也可以保存那些构成国家历史一部分的传统、习俗与行为。"
+        },
+        {
+          "english": "In conclusion, it may save money in the short term if we allow minority languages to disappear, but in the long term this would have an extremely negative impact on our cultural heritage.",
+          "chinese": "总之，允许少数民族语言消失短期内省钱，但长远看这将对文化遗产产生极负面的影响。"
+        }
+      ]
+    },
+    {
+      "id": "t2-02",
+      "title": "University vs. Job After School",
+      "titleCn": "上大学还是直接工作",
+      "topic": "Is university the best route to a successful career?",
+      "topicCn": "上大学是通往成功事业的最佳途径，还是毕业后直接工作更好？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 271,
+      "sentences": [
+        {
+          "english": "When they finish school, teenagers face the dilemma of whether to get a job or continue their education.",
+          "chinese": "毕业时，青少年面临着找工作还是继续学业的困境。"
+        },
+        {
+          "english": "While there are some benefits to getting a job straight after school, I would argue that it is better to go to college or university.",
+          "chinese": "虽然毕业后直接工作有一些好处，但我认为上大学是更好的选择。"
+        },
+        {
+          "english": "The option to start work straight after school is attractive for several reasons.",
+          "chinese": "毕业后直接工作的选择之所以有吸引力，原因有几点。"
+        },
+        {
+          "english": "Many young people want to start earning money as soon as possible.",
+          "chinese": "许多年轻人希望尽快开始赚钱。"
+        },
+        {
+          "english": "In this way, they can become independent, and they will be able to afford their own house or start a family.",
+          "chinese": "这样他们就可以变得独立，并且能够负担自己的房子或组建家庭。"
+        },
+        {
+          "english": "In terms of their career, young people who decide to find work, rather than continue their studies, may progress more quickly.",
+          "chinese": "在职业方面，决定找工作而非继续学业的年轻人可能进步得更快。"
+        },
+        {
+          "english": "They will have the chance to gain real experience and learn practical skills related to their chosen profession.",
+          "chinese": "他们将有机会获得真实经验，并学习与所选职业相关的实用技能。"
+        },
+        {
+          "english": "This may lead to promotions and a successful career.",
+          "chinese": "这可能会带来晋升和事业成功。"
+        },
+        {
+          "english": "On the other hand, I believe that it is more beneficial for students to continue their studies.",
+          "chinese": "另一方面，我认为学生继续学业益处更大。"
+        },
+        {
+          "english": "Firstly, academic qualifications are required in many professions.",
+          "chinese": "首先，许多职业都需要学历资格。"
+        },
+        {
+          "english": "For example, it is impossible to become a doctor, teacher or lawyer without having the relevant degree.",
+          "chinese": "例如，没有相关学位就不可能成为医生、教师或律师。"
+        },
+        {
+          "english": "As a result, university graduates have access to more and better job opportunities, and they tend to earn higher salaries than those with fewer qualifications.",
+          "chinese": "因此，大学毕业生能获得更多更好的工作机会，且薪水往往高于学历较低者。"
+        },
+        {
+          "english": "Secondly, the job market is becoming increasingly competitive, and sometimes there are hundreds of applicants for one position in a company.",
+          "chinese": "其次，就业市场竞争日益激烈，有时一个公司职位就有数百名申请者。"
+        },
+        {
+          "english": "Young people who do not have qualifications from a university or college will not be able to compete.",
+          "chinese": "没有大学学历的年轻人将无法参与竞争。"
+        },
+        {
+          "english": "For the reasons mentioned above, it seems to me that students are more likely to be successful in their careers if they continue their studies beyond school level.",
+          "chinese": "综上所述，学生如果在高中之后继续深造，更有可能在事业上获得成功。"
+        }
+      ]
+    },
+    {
+      "id": "t2-03",
+      "title": "Museums — Entertainment vs. Education",
+      "titleCn": "博物馆——娱乐还是教育",
+      "topic": "Should museums entertain people or educate them?",
+      "topicCn": "博物馆应该是供人娱乐的场所，还是应该专注于教育？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 253,
+      "sentences": [
+        {
+          "english": "People have different views about the role and function of museums.",
+          "chinese": "人们对博物馆的角色和功能有不同看法。"
+        },
+        {
+          "english": "In my opinion, museums can and should be both entertaining and educational.",
+          "chinese": "在我看来，博物馆可以也应该是兼具娱乐和教育功能的。"
+        },
+        {
+          "english": "On the one hand, it can be argued that the main role of a museum is to entertain.",
+          "chinese": "一方面，有人认为博物馆的主要角色是娱乐。"
+        },
+        {
+          "english": "Museums are tourist attractions, and their aim is to exhibit a collection of interesting objects that many people will want to see.",
+          "chinese": "博物馆是旅游景点，其目标是展出人们想要观看的一系列有趣物品。"
+        },
+        {
+          "english": "The average visitor may become bored if he or she has to read or listen to too much educational content, so museums often put more of an emphasis on enjoyment rather than learning.",
+          "chinese": "普通游客若要阅读或听取过多教育内容可能会无聊，因此博物馆通常更强调娱乐而非学习。"
+        },
+        {
+          "english": "This type of museum is designed to be visually spectacular, and may have interactive activities or even games as part of its exhibitions.",
+          "chinese": "这类博物馆被设计得视觉壮观，可能设有互动活动甚至游戏作为展览组成部分。"
+        },
+        {
+          "english": "On the other hand, some people argue that museums should focus on education.",
+          "chinese": "另一方面，有些人认为博物馆应专注于教育。"
+        },
+        {
+          "english": "The aim of any exhibition should be to teach visitors something that they did not previously know.",
+          "chinese": "任何展览的目标都应是让游客学到以往不知道的东西。"
+        },
+        {
+          "english": "Usually this means that the history behind the museum's exhibits needs to be explained, and this can be done in various ways.",
+          "chinese": "这通常意味着展品背后的历史需要被解释，可以通过多种方式实现。"
+        },
+        {
+          "english": "Some museums employ professional guides to talk to their visitors, while other museums offer headsets so that visitors can listen to detailed commentary about the exhibition.",
+          "chinese": "一些博物馆聘请专业导游为游客讲解，另一些则提供耳机让游客收听详细解说。"
+        },
+        {
+          "english": "In this way, museums can play an important role in teaching people about history, culture, science and many other aspects of life.",
+          "chinese": "这样，博物馆在向人们传授历史、文化、科学和生活诸多方面知识上发挥了重要作用。"
+        },
+        {
+          "english": "In conclusion, it seems to me that a good museum should be able to offer an interesting, enjoyable and educational experience so that people can have fun and learn something at the same time.",
+          "chinese": "总之，好的博物馆应能提供有趣、愉快且有教育意义的体验，让人们既享乐趣又同时学到东西。"
+        }
+      ]
+    },
+    {
+      "id": "t2-04",
+      "title": "Gender Equality in University",
+      "titleCn": "大学性别平等",
+      "topic": "Should universities accept equal numbers of male and female students in every subject?",
+      "topicCn": "大学是否应该在每个学科招收同等数量的男女生？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 265,
+      "sentences": [
+        {
+          "english": "In my opinion, men and women should have the same educational opportunities.",
+          "chinese": "在我看来，男女应该拥有相同的教育机会。"
+        },
+        {
+          "english": "However, I do not agree with the idea of accepting equal proportions of each gender in every university subject.",
+          "chinese": "然而，我不同意在每个大学学科中男女各半的做法。"
+        },
+        {
+          "english": "Having the same number of men and women on all degree courses is simply unrealistic.",
+          "chinese": "在所有学位课程中男女数量相同根本不现实。"
+        },
+        {
+          "english": "Student numbers on any course depend on the applications that the institution receives.",
+          "chinese": "任何课程的学生人数取决于该机构收到的申请。"
+        },
+        {
+          "english": "If a university decided to fill courses with equal numbers of males and females, it would need enough applicants of each gender.",
+          "chinese": "若大学决定让课程男女各半，就需要足够的每种性别申请者。"
+        },
+        {
+          "english": "In reality, many courses are more popular with one gender than the other, and it would not be practical to aim for equal proportions.",
+          "chinese": "实际上，许多课程对某一性别更受欢迎，追求等比例并不实际。"
+        },
+        {
+          "english": "For example, nursing courses tend to attract more female applicants, and it would be difficult to fill these courses if fifty per cent of the places needed to go to males.",
+          "chinese": "例如护理课程往往吸引更多女性申请者，若一半名额必须给男性就很难招满。"
+        },
+        {
+          "english": "Apart from the practical concerns expressed above, I also believe that it would be unfair to base admission to university courses on gender.",
+          "chinese": "除了上述实际考虑，我还认为基于性别决定大学录取是不公平的。"
+        },
+        {
+          "english": "Universities should continue to select the best candidates for each course according to their qualifications.",
+          "chinese": "大学应继续根据资历来选拔每门课程的最佳候选人。"
+        },
+        {
+          "english": "In this way, both men and women have the same opportunities, and applicants know that they will be successful if they work hard to achieve good grades at school.",
+          "chinese": "这样男女都有同样机会，申请者知道在校努力学习取得好成绩就会成功。"
+        },
+        {
+          "english": "If a female student is the best candidate for a place on a course, it is surely wrong to reject her in favour of a male student with lower grades or fewer qualifications.",
+          "chinese": "如果一名女生是课程最佳候选人，拒绝她而选成绩更差的男生，这肯定是错误的。"
+        },
+        {
+          "english": "In conclusion, the selection of university students should be based on merit, and it would be both impractical and unfair to change to a selection procedure based on gender.",
+          "chinese": "总之，大学生选拔应基于能力，改为基于性别的选拔既不实际也不公平。"
+        }
+      ]
+    },
+    {
+      "id": "t2-05",
+      "title": "Strict Punishments for Driving Offences",
+      "titleCn": "严惩交通违法",
+      "topic": "Are strict punishments the key to reducing traffic accidents?",
+      "topicCn": "严惩是否是减少交通事故的关键，还是其他措施更有效？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 269,
+      "sentences": [
+        {
+          "english": "People have differing views with regard to the question of how to make our roads safer.",
+          "chinese": "关于如何使道路更安全这一问题，人们有不同看法。"
+        },
+        {
+          "english": "In my view, both punishments and a range of other measures can be used together to promote better driving habits.",
+          "chinese": "在我看来，惩罚和一系列其他措施可以结合使用来促进更好的驾驶习惯。"
+        },
+        {
+          "english": "On the one hand, strict punishments can certainly help to encourage people to drive more safely.",
+          "chinese": "一方面，严厉的惩罚确实有助于鼓励人们更安全地驾驶。"
+        },
+        {
+          "english": "Penalties for dangerous drivers can act as a deterrent, meaning that people avoid repeating the same offence.",
+          "chinese": "对危险驾驶者的处罚可以起到威慑作用，使人们避免重复违法。"
+        },
+        {
+          "english": "There are various types of driving penalty, such as small fines, licence suspension, driver awareness courses, and even prison sentences.",
+          "chinese": "驾驶处罚有多种类型，如小额罚款、吊销驾照、驾驶员意识课程，甚至监禁。"
+        },
+        {
+          "english": "The aim of these punishments is to show dangerous drivers that their actions have negative consequences.",
+          "chinese": "这些惩罚的目的是让危险驾驶者明白其行为会有负面后果。"
+        },
+        {
+          "english": "As a result, we would hope that drivers become more disciplined and alert, and that they follow the rules more carefully.",
+          "chinese": "因此我们希望驾驶员更加自律警觉，并且更仔细地遵守规则。"
+        },
+        {
+          "english": "On the other hand, I believe that safe driving can be promoted in several different ways that do not punish drivers.",
+          "chinese": "另一方面，我认为可以通过几种不惩罚驾驶员的方式促进安全驾驶。"
+        },
+        {
+          "english": "Firstly, it is vitally important to educate people properly before they start to drive, and this could be done in schools or even as part of an extended or more difficult driving test.",
+          "chinese": "首先，在人们开始驾驶前对其进行适当教育至关重要，可在学校进行，甚至作为更广或更难驾考的一部分。"
+        },
+        {
+          "english": "Secondly, more attention could be paid to safe road design.",
+          "chinese": "其次，可以更加关注安全的道路设计。"
+        },
+        {
+          "english": "For example, signs can be used to warn people, speed bumps and road bends can be added to calm traffic, and speed cameras can help to deter people from driving too quickly.",
+          "chinese": "例如可用标志警示、增加减速带和弯道稳流交通、测速摄像头阻止开快车。"
+        },
+        {
+          "english": "Finally, governments or local councils could reduce road accidents by investing in better public transport, which would mean that fewer people would need to travel by car.",
+          "chinese": "最后，政府或地方议会可通过投资更好的公共交通减少交通事故，即更少人需要开车。"
+        },
+        {
+          "english": "In conclusion, while punishments can help to prevent bad driving, I believe that other road safety measures should also be introduced.",
+          "chinese": "总之，虽然惩罚有助于防止不良驾驶，但我认为还应引入其他道路安全措施。"
+        }
+      ]
+    },
+    {
+      "id": "t2-06",
+      "title": "High Salaries / Maximum Wage",
+      "titleCn": "高薪与最高工资限制",
+      "topic": "Should there be a maximum wage, or should people earn as much as companies are willing to pay?",
+      "topicCn": "是否应对最高工资设限，还是应允许人们挣到公司愿意支付的任何薪酬？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 274,
+      "sentences": [
+        {
+          "english": "People have different views about whether governments should introduce a maximum wage.",
+          "chinese": "对于政府是否应该实行最高工资限制，人们有不同看法。"
+        },
+        {
+          "english": "While in some ways it may seem reasonable to allow people to earn as much as companies are willing to pay, I personally believe that employee remuneration should be capped at a certain level.",
+          "chinese": "虽然允许人们挣到公司愿付的任意高薪在某种意义上看似合理，但我个人认为员工薪酬应设上限。"
+        },
+        {
+          "english": "There are various reasons why it might be considered beneficial to allow people to be paid extremely high salaries.",
+          "chinese": "有各种理由说明为何允许极高薪水可能被认为是有益的。"
+        },
+        {
+          "english": "If companies offer excellent pay packages, they can attract the most talented people in their fields to work for them.",
+          "chinese": "如果公司提供优厚薪酬，就能吸引各自领域中最有才华的人为其工作。"
+        },
+        {
+          "english": "For example, technology companies like Google are able to employ the best programmers because of the huge sums that they are willing to pay.",
+          "chinese": "例如谷歌这样的科技公司能雇佣最优秀的程序员，因为它们愿付巨额薪资。"
+        },
+        {
+          "english": "Furthermore, these well-paid employees are likely to be highly motivated to work hard and therefore drive their businesses successfully.",
+          "chinese": "此外这些高薪员工很可能高度受激励去努力工作，从而成功推进企业发展。"
+        },
+        {
+          "english": "In theory, this should result in a thriving economy and increased tax revenues, which means that paying high salaries benefits everyone.",
+          "chinese": "理论上这应带来繁荣经济和增加的税收，意味着支付高薪对人人有益。"
+        },
+        {
+          "english": "However, I agree with those who argue that there should be a maximum wage.",
+          "chinese": "然而我同意那些主张应设最高工资的人。"
+        },
+        {
+          "english": "By introducing a limit on earnings, the pay-gap between bosses and employees can be reduced.",
+          "chinese": "通过对收入设限，可以缩小老板与员工间的薪酬差距。"
+        },
+        {
+          "english": "Currently, the difference between normal and top salaries is huge, and this can demotivate workers who feel that the situation is unfair.",
+          "chinese": "目前普通薪资与最高薪资差距巨大，会打击觉得此时不公平的员工的积极性。"
+        },
+        {
+          "english": "With lower executive salaries, it might become feasible to introduce higher minimum wages, and everybody would be better off.",
+          "chinese": "高管薪资降低后，可能可以实行更高的最低工资，人人生活都会更好。"
+        },
+        {
+          "english": "One possible consequence of greater equality could be that poverty and crime rates fall because the general population will experience an improved standard of living.",
+          "chinese": "更大平等的一个可能后果是贫困和犯罪率下降，因为普通民众将体验到生活水平提高。"
+        },
+        {
+          "english": "In conclusion, it seems to me that it would be better, on balance, for governments to set a limit on the wages of the highest earners in society.",
+          "chinese": "总之，总体上看，政府对社会中最高收入者的工资设定上限会更好。"
+        }
+      ]
+    },
+    {
+      "id": "t2-07",
+      "title": "Traditional & Religious Festivals",
+      "titleCn": "传统与宗教节日",
+      "topic": "Have people forgotten the meaning behind traditional or religious festivals?",
+      "topicCn": "人们是否已忘记传统或宗教节日背后的含义，节日期间人们只想享乐吗？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 296,
+      "sentences": [
+        {
+          "english": "Some people argue that we no longer remember the original meaning of festivals, and that most of us treat them as opportunities to have fun.",
+          "chinese": "有些人认为我们不再记得节日的原始含义，多数人仅把它们当玩乐机会。"
+        },
+        {
+          "english": "While I agree that enjoyment seems to be the priority during festival times, I do not agree that people have forgotten what these festivals mean.",
+          "chinese": "虽然我同意在节日期间享乐似乎是优先事项，但我不同意人们已忘记节日的意义。"
+        },
+        {
+          "english": "On the one hand, religious and traditional festivals have certainly become times for celebration.",
+          "chinese": "一方面，宗教和传统节日确实已变成庆祝的时节。"
+        },
+        {
+          "english": "In the UK, Christmas is a good example of a festival period when people are most concerned with shopping, giving and receiving presents, decorating their homes and enjoying traditional meals with their families.",
+          "chinese": "在英国圣诞节是个好例子——节日期间人们最关心购物、互赠礼物、装饰家居及与家人享用传统大餐。"
+        },
+        {
+          "english": "Most people look forward to Christmas as a holiday period, rather than a time to practise religion.",
+          "chinese": "多数人期待圣诞节是作为假期，而非进行宗教活动的时间。"
+        },
+        {
+          "english": "Similar behaviour can be seen during non-religious festivals, such as Bonfire Night.",
+          "chinese": "在非宗教节日如篝火之夜，也可看到类似行为。"
+        },
+        {
+          "english": "People associate this occasion with making fires, watching firework displays, and perhaps going to large events in local parks; in other words, enjoyment is people's primary goal.",
+          "chinese": "人们将此时与生火、看烟花、去当地公园大型活动联系在一起;换言之享乐是人们的首要目标。"
+        },
+        {
+          "english": "However, I disagree with the idea that the underlying meaning of such festivals has been forgotten.",
+          "chinese": "然而我不同意这类节日的深层含义已被遗忘这一观点。"
+        },
+        {
+          "english": "In UK primary schools, children learn in detail about the religious reasons for celebrating Christmas, Easter and a variety of festivals in other religions.",
+          "chinese": "在英国小学，孩子们详细了解庆祝圣诞节、复活节及其他宗教节日的宗教原因。"
+        },
+        {
+          "english": "For example, in late December, children sing Christmas songs which have a religious content, and they may even perform nativity plays telling the story of Jesus' birth.",
+          "chinese": "例如十二月下旬孩子们唱含宗教内容的圣诞歌，甚至可能演出耶稣诞生剧。"
+        },
+        {
+          "english": "Families also play a role in passing knowledge of religious festivals' deeper significance on to the next generation.",
+          "chinese": "家庭在将宗教节日深层意义传给下一代方面也发挥作用。"
+        },
+        {
+          "english": "The same is true for festivals that have a historical background, such as Bonfire Night or Halloween, in the sense that people generally learn the stories behind these occasions at an early age.",
+          "chinese": "对篝火之夜或万圣节等有历史背景的节日也如此——人们通常自幼就了解这些时刻背后的故事。"
+        },
+        {
+          "english": "In conclusion, although people mainly want to enjoy themselves during festivals, I believe that they are still aware of the reasons for these celebrations.",
+          "chinese": "总之，虽然人们在节日期间主要想享受，但我相信他们仍知道这些庆祝活动的原因。"
+        }
+      ]
+    },
+    {
+      "id": "t2-08",
+      "title": "Technology and Traditional Cultures",
+      "titleCn": "科技与传统文化",
+      "topic": "Are technology and traditional cultures incompatible?",
+      "topicCn": "科技与传统文化是否互不兼容？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 266,
+      "sentences": [
+        {
+          "english": "Some people believe that technological developments lead to the loss of traditional cultures.",
+          "chinese": "有些人认为科技发展导致传统文化的丧失。"
+        },
+        {
+          "english": "I partly agree with this assertion; while it may be true in the case of some societies, others seem to be unaffected by technology and the modern world.",
+          "chinese": "我部分同意这一论断;虽对某些社会确实如此，但其他社会似乎未受科技和现代世界影响。"
+        },
+        {
+          "english": "On the one hand, the advances in technology that have driven industrialisation in developed countries have certainly contributed to the disappearance of traditional ways of life.",
+          "chinese": "一方面，推动发达国家工业化的技术进步无疑促成了传统生活方式的消失。"
+        },
+        {
+          "english": "For example, in pre-industrial Britain, generations of families grew up in the same small village communities.",
+          "chinese": "例如在工业化前的英国，几代人在同一个小村庄社区长大。"
+        },
+        {
+          "english": "These communities had a strong sense of identity, due to their shared customs and beliefs.",
+          "chinese": "这些社区因共同的习俗和信仰而拥有强烈的认同感。"
+        },
+        {
+          "english": "However, developments in transport, communications and manufacturing led to the dispersal of families and village communities as people moved to the cities in search of work.",
+          "chinese": "然而交通、通信和制造业的发展导致家庭和村庄社区分散，因为人们迁往城市找工作。"
+        },
+        {
+          "english": "Nowadays most British villages are inhabited by commuters, many of whom do not know their closest neighbours.",
+          "chinese": "如今多数英国村庄居住的是通勤者，其中许多人连最近的邻居都不认识。"
+        },
+        {
+          "english": "On the other hand, in some parts of the world traditional cultures still thrive.",
+          "chinese": "另一方面，世界某些地方传统文化仍兴盛。"
+        },
+        {
+          "english": "There are tribes in the Amazon Rainforest, for example, that have been completely untouched by the technological developments of the developed world.",
+          "chinese": "例如亚马逊雨林中的部落完全未被发达国家的科技发展所触及。"
+        },
+        {
+          "english": "These tribal communities continue to hunt and gather food from the forest, and traditional skills are passed on to children by parents and elders.",
+          "chinese": "这些部落社区继续从森林中狩猎采集食物，传统技能由父母和长者传授给孩子们。"
+        },
+        {
+          "english": "Other traditional cultures, such as farming communities in parts of Africa, are embracing communications technologies.",
+          "chinese": "其他传统文化如非洲部分地区的农业社区正在拥抱通信技术。"
+        },
+        {
+          "english": "Mobile phones give farmers access to information, from weather predictions to market prices, which helps them to prosper and therefore supports their culture.",
+          "chinese": "手机让农民获取从天气预报到市场价格的信息，助其繁荣从而支持了他们的文化。"
+        },
+        {
+          "english": "In conclusion, many traditional ways of life have been lost as a result of advances in technology, but other traditional communities have survived and even flourished.",
+          "chinese": "总之许多传统生活方式因技术进步而丧失，但其他传统社区却存活下来甚至蓬勃发展。"
+        }
+      ]
+    },
+    {
+      "id": "t2-09",
+      "title": "Online University Courses",
+      "titleCn": "在线大学课程",
+      "topic": "Is the trend towards online university courses positive or negative?",
+      "topicCn": "在线大学课程日益普及，这是积极还是消极的发展？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 288,
+      "sentences": [
+        {
+          "english": "It is true that online courses are becoming a common feature of university education.",
+          "chinese": "确实在线课程正成为大学教育的一个常见特征。"
+        },
+        {
+          "english": "Although there are some drawbacks of Internet-based learning, I would argue that there are far more benefits.",
+          "chinese": "虽然基于互联网的学习有一些缺点，但我认为好处要多得多。"
+        },
+        {
+          "english": "The main drawback of the trend towards online university courses is that there is less direct interaction.",
+          "chinese": "在线大学课程这一趋势的主要缺点是直接互动减少了。"
+        },
+        {
+          "english": "Students may not have the opportunity to engage face-to-face with their teachers, and will instead have to rely on written forms of communication.",
+          "chinese": "学生可能没机会与老师面对面交流，而只能依赖书面形式的沟通。"
+        },
+        {
+          "english": "Similarly, students who study online do not come into direct contact with each other, and this could have a negative impact on peer support, discussion and exchange of ideas.",
+          "chinese": "同样，在线学习的学生彼此不直接接触，可能对同伴支持、讨论和思想交流产生负面影响。"
+        },
+        {
+          "english": "For example, whereas students on traditional courses can attend seminars and even discuss their subjects over coffee after lessons, online learners are restricted to chatting through website forum areas.",
+          "chinese": "例如传统课程的学生可参加研讨会甚至课后喝咖啡讨论，而在线学习者仅限于通过网站论坛聊天。"
+        },
+        {
+          "english": "These learners may also lack the motivation and element of competition that face-to-face group work brings.",
+          "chinese": "这些学习者也可能缺乏面对面小组合作带来的动力与竞争因素。"
+        },
+        {
+          "english": "Despite the negatives mentioned above, I believe that online university courses are a positive development for various reasons.",
+          "chinese": "尽管有上述负面因素，我仍认为在线大学课程因多种原因是一项积极的发展。"
+        },
+        {
+          "english": "Firstly, they allow learners to study in a flexible way, meaning that they can work whenever and wherever is convenient, and they can cover the material at their own pace.",
+          "chinese": "首先它允许学习者以灵活方式学习，意味着任何时间地点都可学，且可按自己节奏学材料。"
+        },
+        {
+          "english": "Secondly, the cost of a university education can be greatly reduced, while revenues for institutions may increase as more students can be taught.",
+          "chinese": "其次大学教育成本可大大降低，而机构收入可能因可教授更多学生而增加。"
+        },
+        {
+          "english": "Finally, online learning offers open access to anybody who is willing to study, regardless of age, location, ability and background.",
+          "chinese": "最后在线学习为任何愿学之人提供开放机会，无论年龄、地点、能力和背景。"
+        },
+        {
+          "english": "For example, my uncle, who is 65 years old, has recently enrolled on an online MBA course in a different country, which would have been impossible in the days before Internet-based education.",
+          "chinese": "例如我65岁的叔叔最近报名了另一国家的在线MBA，这在基于互联网的教育出现前是不可想象的。"
+        },
+        {
+          "english": "In conclusion, while I recognise the possible disadvantages of online learning, I consider it to be a positive development overall.",
+          "chinese": "总之，虽然我承认在线学习可能存在的缺点，但总体上我认为它是一项积极的发展。"
+        }
+      ]
+    },
+    {
+      "id": "t2-10",
+      "title": "Fathers as Househusbands",
+      "titleCn": "全职爸爸",
+      "topic": "Why are more fathers staying at home while mothers work? Is this positive or negative?",
+      "topicCn": "为什么更多父亲在家带娃而母亲外出工作？这是积极还是消极的发展？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 274,
+      "sentences": [
+        {
+          "english": "It is true that men are increasingly likely to take on the role of househusband, while more women than ever are the breadwinners in their families.",
+          "chinese": "确实男性越来越可能承担家庭主夫角色，而比以往更多的女性成为家庭经济支柱。"
+        },
+        {
+          "english": "There could be several reasons for this, and I consider it to be a very positive trend.",
+          "chinese": "这可能有多方面原因，我认为这是一个非常积极的趋势。"
+        },
+        {
+          "english": "In recent years, parents have had to adapt to various changes in our societies.",
+          "chinese": "近年来父母们不得不适应我们社会中的各种变化。"
+        },
+        {
+          "english": "Equal rights movements have made great progress, and it has become normal for women to gain qualifications and pursue a career.",
+          "chinese": "平权运动取得巨大进展，女性获得学历并追求事业已成常态。"
+        },
+        {
+          "english": "It has also become socially acceptable for men to stay at home and look after their children.",
+          "chinese": "男性留在家中照顾孩子也已在社会上被接受。"
+        },
+        {
+          "english": "At the same time, the rising cost of living has meant that both marriage partners usually need to work and save money before starting a family.",
+          "chinese": "同时不断上涨的生活成本意味着夫妻双方通常都需工作和存钱才能组建家庭。"
+        },
+        {
+          "english": "Therefore, when couples have children, they may decide who works and who stays at home depending on the personal preference of each partner, or based on which partner earns the most money.",
+          "chinese": "因此有了孩子后，夫妻可能根据各自偏好或谁收入更高来决定谁工作谁留家。"
+        },
+        {
+          "english": "In my view, the changes described above should be seen as progress.",
+          "chinese": "在我看来，上述变化应被视为进步。"
+        },
+        {
+          "english": "We should be happy to live in a society in which men and women have equal opportunities, and in which women are not put under pressure to sacrifice their careers.",
+          "chinese": "我们应为生活在男女拥有平等机会的社会感到高兴，其中女性不必被迫牺牲事业。"
+        },
+        {
+          "english": "Equally, it seems only fair that men should be free to leave their jobs in order to assume childcare responsibilities if this is what they wish to do.",
+          "chinese": "同样如果男性愿意的话，自由离职承担育儿责任才公平。"
+        },
+        {
+          "english": "Couples should be left to make their own decisions about which parental role each partner takes, according to their particular circumstances and needs.",
+          "chinese": "夫妻应根据自己的具体情况和需求自行决定各自承担哪种父母角色。"
+        },
+        {
+          "english": "In conclusion, the changing roles of men and women in the family are a result of wider changes in society, and I believe that these developments are desirable.",
+          "chinese": "总之男女在家庭中角色的变化是社会更广泛变革的结果，我相信这些发展是可取的。"
+        }
+      ]
+    },
+    {
+      "id": "t2-11",
+      "title": "Technology & Relationships",
+      "titleCn": "科技与人际关系",
+      "topic": "How has technology affected the types of relationships people make?",
+      "topicCn": "科技如何影响了人们建立的关系类型？这是积极还是消极的？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 257,
+      "sentences": [
+        {
+          "english": "It is true that new technologies have had an influence on communication between people.",
+          "chinese": "确实新技术对人与人之间的交流产生了影响。"
+        },
+        {
+          "english": "Technology has affected relationships in various ways, and in my opinion there are both positive and negative effects.",
+          "chinese": "科技以多种方式影响了人际关系，在我看来既有积极也有消极影响。"
+        },
+        {
+          "english": "Technology has had an impact on relationships in business, education and social life.",
+          "chinese": "科技对商业、教育和社会生活中的人际关系都产生了影响。"
+        },
+        {
+          "english": "Firstly, telephones and the Internet allow business people in different countries to interact without ever meeting each other.",
+          "chinese": "首先电话和互联网使不同国家的商务人士无需见面就能互动。"
+        },
+        {
+          "english": "Secondly, services like Skype create new possibilities for relationships between students and teachers.",
+          "chinese": "其次像 Skype 这样的服务为学生和教师间的关系创造了新可能。"
+        },
+        {
+          "english": "For example, a student can now take video lessons with a teacher in a different city or country.",
+          "chinese": "例如学生现在可与不同城市或国家的老师上视频课。"
+        },
+        {
+          "english": "Finally, many people use social networks, like Facebook, to make new friends and find people who share common interests, and they interact through their computers rather than face to face.",
+          "chinese": "最后许多人用 Facebook 等社交网络结交新友找到志同道合者，通过电脑互动而非面对面。"
+        },
+        {
+          "english": "On the one hand, these developments can be extremely positive.",
+          "chinese": "一方面这些发展可能极其积极。"
+        },
+        {
+          "english": "Cooperation between people in different countries was much more difficult when communication was limited to written letters or telegrams.",
+          "chinese": "当交流仅限于信件或电报时，不同国家人民间的合作要困难得多。"
+        },
+        {
+          "english": "Nowadays, interactions by email, phone or video are almost as good as face-to-face meetings, and many of us benefit from these interactions, either in work or social contexts.",
+          "chinese": "如今通过邮件、电话或视频的互动几乎与面对面会议一样好，我们许多人在工作或社交中从中受益。"
+        },
+        {
+          "english": "On the other hand, the availability of new communication technologies can also have the result of isolating people and discouraging real interaction.",
+          "chinese": "另一方面新通信技术的普及也可能导致人们被孤立并阻碍真正的互动。"
+        },
+        {
+          "english": "For example, many young people choose to make friends online rather than mixing with their peers in the real world, and these virtual relationships are a poor substitute for real friendships.",
+          "chinese": "例如许多年轻人选择网上交友而不是在现实中与同龄人交往，这些虚拟关系是真实友谊的糟糕替代。"
+        },
+        {
+          "english": "In conclusion, technology has certainly revolutionised communication between people, but not all of the outcomes of this revolution have been positive.",
+          "chinese": "总之科技无疑彻底改变了人际交流，但这场变革并非所有结果都是积极的。"
+        }
+      ]
+    },
+    {
+      "id": "t2-12",
+      "title": "Living Alone",
+      "titleCn": "独居生活",
+      "topic": "Is the trend of more people living alone positive or negative?",
+      "topicCn": "越来越多的人独居，这是积极还是消极的趋势？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 280,
+      "sentences": [
+        {
+          "english": "In recent years it has become far more normal for people to live alone, particularly in large cities in the developed world.",
+          "chinese": "近年来人们独居已变得远比过去普遍，尤其是在发达国家的大城市中。"
+        },
+        {
+          "english": "I think that this trend has both positive and negative consequences in equal measure.",
+          "chinese": "我认为这一趋势的积极后果和消极后果同等程度。"
+        },
+        {
+          "english": "The rise in one-person households can be seen as positive for both personal and broader economic reasons.",
+          "chinese": "单人家庭的增长从个人和更广泛的经济角度来看都可被视为积极的。"
+        },
+        {
+          "english": "On an individual level, people who choose to live alone may become more independent and self-reliant than those who live with family members.",
+          "chinese": "在个人层面，选择独居的人可能比与家人同住的人变得更加独立和自力更生。"
+        },
+        {
+          "english": "A young adult who lives alone, for example, will need to learn to cook, clean, pay bills and manage his or her budget, all of which are valuable life skills.",
+          "chinese": "例如独居年轻人需要学会做饭、打扫、支付账单和管理预算，所有这些都是宝贵的生活技能。"
+        },
+        {
+          "english": "From an economic perspective, the trend towards living alone will result in greater demand for housing.",
+          "chinese": "从经济角度看，独居趋势将导致更大的住房需求。"
+        },
+        {
+          "english": "This is likely to benefit the construction industry, estate agents and a whole host of other companies that rely on homeowners to buy their products or services.",
+          "chinese": "这可能会使建筑业、房地产中介及众多依赖房主购买产品或服务的公司受益。"
+        },
+        {
+          "english": "However, the personal and economic arguments given above can be considered from the opposite angle.",
+          "chinese": "然而上述个人和经济方面的论点也可从相反角度看待。"
+        },
+        {
+          "english": "Rather than the positive feeling of increased independence, people who live alone may experience feelings of loneliness, isolation and worry.",
+          "chinese": "与独立性增强的积极感受相反，独居的人可能会感到孤独、孤立和忧虑。"
+        },
+        {
+          "english": "They face the pressures of facing all household burdens and duties on their own, without the emotional support of family members nearby.",
+          "chinese": "他们面临独自承担所有家庭负担和责任的巨大压力，而无家人在身边的情感支持。"
+        },
+        {
+          "english": "From the financial point of view, a rise in demand for housing is likely to push up property prices and rents.",
+          "chinese": "从财务角度看，住房需求增长很可能推高房地产价格和租金。"
+        },
+        {
+          "english": "While homeowners may benefit from rising property values, those who rent may face rising living costs.",
+          "chinese": "虽然房主可能从房产升值中受益，但租户可能面临不断上涨的生活成本。"
+        },
+        {
+          "english": "In conclusion, the increase in one-person households will have both beneficial and detrimental effects on individuals and on the economy.",
+          "chinese": "总之单人家庭的增长将对个人和经济产生有利和不利的双重影响。"
+        }
+      ]
+    },
+    {
+      "id": "t2-13",
+      "title": "University Subject Choice",
+      "titleCn": "大学选课自由",
+      "topic": "Should students study whatever they like or only useful subjects?",
+      "topicCn": "大学生应自由选择喜欢的学科，还是只能学未来有用的学科？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 297,
+      "sentences": [
+        {
+          "english": "People have different views about how much choice students should have with regard to what they study at university.",
+          "chinese": "关于大学生应有多大的选课自由度，人们有不同看法。"
+        },
+        {
+          "english": "While some argue that it would be better for students to be forced into certain key subject areas, I believe that everyone should be able to study the course of their choice.",
+          "chinese": "虽然有人认为强迫学生进入某些关键学科领域更好，但我认为每个人都应该能学自己选择的课程。"
+        },
+        {
+          "english": "There are various reasons why people believe that universities should only offer subjects that will be useful in the future.",
+          "chinese": "有各种原因说明为何人们认为大学只应提供未来有用的学科。"
+        },
+        {
+          "english": "They may assert that university courses like medicine, engineering and information technology are more likely to be beneficial than certain art degrees.",
+          "chinese": "他们可能断言医学、工程和信息技术等课程比某些艺术学位更可能有益。"
+        },
+        {
+          "english": "From a personal perspective, it can be argued that these courses provide more job opportunities, career progression, better salaries, and therefore an improved quality of life for students who take them.",
+          "chinese": "从个人角度看，这些课程提供了更多工作机会、职业发展、更好的薪资，从而提高选择者的生活质量。"
+        },
+        {
+          "english": "On the societal level, by forcing people to choose particular university subjects, governments can ensure that any knowledge and skill gaps in the economy are covered.",
+          "chinese": "在社会层面，强制人们选择特定大学学科，政府可确保经济中的知识和技能缺口得到填补。"
+        },
+        {
+          "english": "Finally, a focus on technology in higher education could lead to new inventions, economic growth, and greater future prosperity.",
+          "chinese": "最后，高等教育中关注科技可能带来新发明、经济增长和更大的未来繁荣。"
+        },
+        {
+          "english": "In spite of these arguments, I believe that university students should be free to choose their preferred areas of study.",
+          "chinese": "尽管有这些论点，我仍认为大学生应自由选择喜欢的学习领域。"
+        },
+        {
+          "english": "In my opinion, society will benefit more if our students are passionate about what they are learning.",
+          "chinese": "在我看来，若学生对所学内容充满热情，社会将受益更多。"
+        },
+        {
+          "english": "Besides, nobody can really predict which areas of knowledge will be most useful to society in the future, and it may be that employers begin to value creative thinking skills above practical or technical skills.",
+          "chinese": "此外没人能真正预测哪些知识领域未来对社会最有价值，雇主可能开始比实践技能更看重创造性思维。"
+        },
+        {
+          "english": "If this were to happen, perhaps we would need more students of art, history and philosophy than of science or technology.",
+          "chinese": "若这种情况发生，也许我们将需要比科技专业更多的艺术、历史和哲学专业学生。"
+        },
+        {
+          "english": "In conclusion, although it might seem sensible for universities to focus only on the most useful subjects, I personally prefer the current system in which people have the right to study whatever they like.",
+          "chinese": "总之虽然大学只专注最有用的学科看似明智，但我更认同现行制度——人们有权学习任何喜欢的内容。"
+        }
+      ]
+    },
+    {
+      "id": "t2-14",
+      "title": "Ex-Prisoners Speaking to Teenagers",
+      "titleCn": "出狱者向青少年宣讲",
+      "topic": "Are reformed ex-prisoners the best people to talk to teenagers about the dangers of crime?",
+      "topicCn": "改过自新的出狱者是向青少年讲述犯罪危险的最佳人选吗？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 287,
+      "sentences": [
+        {
+          "english": "Many people are of the opinion that reformed criminals are the best people to speak to teenagers about the dangers of committing crime.",
+          "chinese": "许多人认为改过自新的罪犯是向青少年讲述犯罪危险的最佳人选。"
+        },
+        {
+          "english": "I completely agree with the idea that allowing such people to speak to teenagers about their experiences is the best way to discourage them from breaking the law.",
+          "chinese": "我完全同意让这些人向青少年讲述亲身经历是劝阻他们违法犯罪的最佳方式。"
+        },
+        {
+          "english": "In my view, teenagers are more likely to accept advice from someone who can speak from experience.",
+          "chinese": "在我看来，青少年更可能接受来自有亲身经历的人的劝告。"
+        },
+        {
+          "english": "Reformed offenders can tell young people about how they became involved in crime, the dangers of a criminal lifestyle, and what life in prison is really like.",
+          "chinese": "改过自新的罪犯可告诉年轻人他们如何卷入犯罪、犯罪生活方式的危险以及监狱生活的真实面貌。"
+        },
+        {
+          "english": "They can also dispel any ideas that teenagers may have about criminals leading glamorous lives.",
+          "chinese": "他们还可打消青少年可能对罪犯过着光鲜生活的任何幻想。"
+        },
+        {
+          "english": "While adolescents are often indifferent to the guidance given by older people, I imagine that most of them would be extremely keen to hear the stories of an ex-offender.",
+          "chinese": "虽然青少年通常对长辈指导漠不关心，但我认为他们多数会非常渴望听一名前罪犯的故事。"
+        },
+        {
+          "english": "The vivid and perhaps shocking nature of these stories is likely to have a powerful impact.",
+          "chinese": "这些故事的生动甚至令人震惊的性质很可能产生强有力的影响。"
+        },
+        {
+          "english": "The alternatives to using reformed criminals to educate teenagers about crime would be much less effective.",
+          "chinese": "用改过自新的罪犯来教育青少年犯罪问题的替代方案效果会差得多。"
+        },
+        {
+          "english": "One option would be for police officers to visit schools and talk to young people.",
+          "chinese": "一个方案是让警官到学校与年轻人交谈。"
+        },
+        {
+          "english": "This could be useful in terms of informing teens about what happens to lawbreakers when they are caught, but young people are often reluctant to take advice from figures of authority.",
+          "chinese": "这在告知青少年违法者被捕后会面临什么方面可能有用，但年轻人往往不愿接受权威人士的建议。"
+        },
+        {
+          "english": "A second option would be for school teachers to speak to their students about crime, but I doubt that students would see teachers as credible sources of information about this topic.",
+          "chinese": "第二个方案是让老师向学生谈犯罪，但我怀疑学生会把老师视为可靠的信息来源。"
+        },
+        {
+          "english": "Finally, educational films might be informative, but there would be no opportunity for young people to interact and ask questions.",
+          "chinese": "最后，教育影片可能具有信息性，但年轻人将没有机会互动和提问。"
+        },
+        {
+          "english": "In conclusion, I fully support the view that people who have turned their lives around after serving a prison sentence could help to deter teenagers from committing crimes.",
+          "chinese": "总之我完全支持这一观点：服刑后改过自新的人可以帮助阻止青少年犯罪。"
+        }
+      ]
+    },
+    {
+      "id": "t2-15",
+      "title": "Traditional Views and Modern Life",
+      "titleCn": "传统观念与现代生活",
+      "topic": "Are traditional ideas from older generations helpful for preparing younger people for modern life?",
+      "topicCn": "老一辈的传统观念对年轻人适应现代生活有帮助吗？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 299,
+      "sentences": [
+        {
+          "english": "It is true that many older people believe in traditional values that often seem incompatible with the needs of younger people.",
+          "chinese": "确实许多老年人信奉的传统价值观常常看似与年轻人的需求不相容。"
+        },
+        {
+          "english": "While I agree that some traditional ideas are outdated, I believe that others are still useful and should not be forgotten.",
+          "chinese": "虽然我同意一些传统观念已过时，但我认为其他观念仍有价值不应被遗忘。"
+        },
+        {
+          "english": "On the one hand, many of the ideas that elderly people have about life are becoming less relevant for younger people.",
+          "chinese": "一方面老年人关于生活的许多观念对年轻人来说正变得越来越不相关。"
+        },
+        {
+          "english": "In the past, for example, people were advised to learn a profession and find a secure job for life, but today's workers expect much more variety and diversity from their careers.",
+          "chinese": "例如过去人们被建议学一门手艺找一份终身稳定的工作，但如今的工作者期望从职业生涯中获得更多变化和多样性。"
+        },
+        {
+          "english": "At the same time, the rules around relationships are being eroded as young adults make their own choices about who and when to marry.",
+          "chinese": "与此同时，随着年轻人自行选择与谁及何时结婚，围绕恋爱关系的规则正在被消解。"
+        },
+        {
+          "english": "But perhaps the greatest disparity between the generations can be seen in their attitudes towards gender roles.",
+          "chinese": "但也许代际之间最大的差异体现在他们对性别角色的态度上。"
+        },
+        {
+          "english": "The traditional roles of men as breadwinners and women as housewives are no longer accepted as necessary or appropriate by most younger people.",
+          "chinese": "男性养家女性做家庭主妇的传统角色已不再被多数年轻人视为必要或合适。"
+        },
+        {
+          "english": "On the other hand, some traditional views and values are certainly applicable to the modern world.",
+          "chinese": "另一方面，一些传统观点和价值观确实适用于现代世界。"
+        },
+        {
+          "english": "For example, older generations attach great importance to working hard, doing one's best, and taking pride in one's work, and these behaviours can surely benefit young people as they enter today's competitive job market.",
+          "chinese": "例如老一辈重视努力工作、尽力而为、以工作为荣，这些行为无疑能让年轻人在进入竞争激烈的就业市场时受益。"
+        },
+        {
+          "english": "Other characteristics that are perhaps seen as traditional are politeness and good manners.",
+          "chinese": "其他可能被视为传统的品质是礼貌和良好举止。"
+        },
+        {
+          "english": "In our globalised world, young adults can expect to come into contact with people from a huge variety of backgrounds, and it is more important than ever to treat others with respect.",
+          "chinese": "在全球化的世界中，年轻人会接触来自极其多样化背景的人，以尊重待人比以往任何时候都更加重要。"
+        },
+        {
+          "english": "Finally, I believe that young people would lead happier lives if they had a more old-fashioned sense of community and neighbourliness.",
+          "chinese": "最后，我相信如果年轻人拥有一种更传统的社区感和邻里之情，他们会过上更幸福的生活。"
+        },
+        {
+          "english": "In conclusion, although the views of older people may sometimes seem unhelpful in today's world, we should not dismiss all traditional ideas as irrelevant.",
+          "chinese": "总之虽然老年人的观点在当今世界可能看似无益，但我们不应将所有传统观念都视为无关紧要而摒弃。"
+        }
+      ]
+    },
+    {
+      "id": "t2-16",
+      "title": "Foreign Films vs. Local Film Industry",
+      "titleCn": "外国电影与本地电影产业",
+      "topic": "Why do people prefer foreign films, and should governments support local film industries?",
+      "topicCn": "为何人们更喜欢外国电影？政府是否应资助本地电影产业？",
+      "taskType": "task2",
+      "band": 9,
+      "wordCount": 294,
+      "sentences": [
+        {
+          "english": "It is true that foreign films are more popular in many countries than domestically produced films.",
+          "chinese": "确实在许多国家外国电影比国产电影更受欢迎。"
+        },
+        {
+          "english": "There could be several reasons why this is the case, and I believe that governments should promote local film-making by subsidising the industry.",
+          "chinese": "这可能有多方面原因，我认为政府应通过补贴该产业来促进本土电影制作。"
+        },
+        {
+          "english": "There are various reasons why many people find foreign films more enjoyable than the films produced in their own countries.",
+          "chinese": "有各种原因说明为何许多人觉得外国电影比本国制作的更好看。"
+        },
+        {
+          "english": "Firstly, the established film industries in certain countries have huge budgets for action, special effects and to shoot scenes in spectacular locations.",
+          "chinese": "首先某些国家成熟的电影产业拥有庞大预算用于动作、特效及在壮观地点拍摄。"
+        },
+        {
+          "english": "Hollywood blockbusters like 'Avatar' or the James Bond films are examples of such productions, and their global appeal is undeniable.",
+          "chinese": "像《阿凡达》或詹姆斯·邦德系列等好莱坞大片就是此类制作，其全球吸引力无可否认。"
+        },
+        {
+          "english": "Another reason why these big-budget films are so successful is that they often star the most famous actors and actresses, and they are made by the most accomplished directors.",
+          "chinese": "这些高预算电影如此成功的另一原因是它们通常由最著名的演员主演、最有成就的导演执导。"
+        },
+        {
+          "english": "The poor quality, low-budget filmmaking in many countries suffers in comparison.",
+          "chinese": "相比之下许多国家质量差、预算低的电影制作相形见绌。"
+        },
+        {
+          "english": "In my view, governments should support local film industries financially.",
+          "chinese": "在我看来政府应在财政上支持本地电影产业。"
+        },
+        {
+          "english": "In every country, there are talented amateur film-makers who just need to be given the opportunity to prove themselves.",
+          "chinese": "每个国家都有才华横溢的业余电影人，他们只是需要机会来证明自己。"
+        },
+        {
+          "english": "To compete with big-budget productions from overseas, these people need money to pay for film crews, actors and a host of other costs related to producing high-quality films.",
+          "chinese": "为了与海外高预算制作竞争，这些人需要资金来支付摄制组、演员及制作高质量影片的各种其他费用。"
+        },
+        {
+          "english": "If governments did help with these costs, they would see an increase in employment in the film industry, income from film sales, and perhaps even a rise in tourist numbers.",
+          "chinese": "若政府确实帮助承担这些费用，他们将看到电影业就业增加、销售收入增长，甚至游客数量上升。"
+        },
+        {
+          "english": "New Zealand is a prime example of a country whose tourism has benefited as a result of this, largely related to the 'Lord of the Rings' films, which were partly funded by government subsidies.",
+          "chinese": "新西兰是个典型例子——该国旅游业因此受益，很大程度上与《指环王》系列电影有关，这些电影部分由政府补贴资助。"
+        },
+        {
+          "english": "In conclusion, I believe that increased financial support could help to raise the quality of locally made films and allow them to compete with the foreign productions that currently dominate the market.",
+          "chinese": "总之我相信增加财政支持有助于提高国产影片质量，使其能与目前主导市场的外国制作竞争。"
+        }
+      ]
+    },
+    {
+      "id": "t1-01",
+      "title": "Internet Users — Line Graph",
+      "titleCn": "互联网用户——折线图",
+      "topic": "Line graph comparing Internet usage in three countries (1999–2009)",
+      "topicCn": "折线图比较三个国家互联网使用情况 (1999–2009)",
+      "taskType": "task1",
+      "band": 9,
+      "wordCount": 151,
+      "chartType": "line-graph",
+      "sentences": [
+        {
+          "english": "The line graph compares the percentage of people in three countries who used the Internet between 1999 and 2009.",
+          "chinese": "该折线图比较了1999年至2009年间三个国家互联网用户的人口比例。"
+        },
+        {
+          "english": "It is clear that the proportion of the population who used the Internet increased in each country over the period shown.",
+          "chinese": "显然在所示期间，每个国家使用互联网的人口比例都有所增长。"
+        },
+        {
+          "english": "Overall, a much larger percentage of Canadians and Americans had access to the Internet in comparison with Mexicans, and Canada experienced the fastest growth in Internet usage.",
+          "chinese": "总体而言，加拿大和美国人上网的比例远高于墨西哥人，加拿大互联网使用增长最快。"
+        },
+        {
+          "english": "In 1999, the proportion of people using the Internet in the USA was about 20%.",
+          "chinese": "1999年美国互联网用户比例约为20%。"
+        },
+        {
+          "english": "The figures for Canada and Mexico were lower, at about 10% and 5% respectively.",
+          "chinese": "加拿大和墨西哥的数字较低，分别约为10%和5%。"
+        },
+        {
+          "english": "In 2005, Internet usage in both the USA and Canada rose to around 70% of the population, while the figure for Mexico reached just over 25%.",
+          "chinese": "2005年美国和加拿大的互联网使用率均升至约70%，而墨西哥的数字仅刚过25%。"
+        },
+        {
+          "english": "By 2009, the percentage of Internet users was highest in Canada.",
+          "chinese": "到2009年，加拿大的互联网用户比例最高。"
+        },
+        {
+          "english": "Almost 100% of Canadians used the Internet, compared to about 80% of Americans and only 40% of Mexicans.",
+          "chinese": "近100%的加拿大人使用互联网，相较之下美国人约为80%，墨西哥人仅40%。"
+        }
+      ]
+    },
+    {
+      "id": "t1-02",
+      "title": "UK Immigration & Emigration — Line Graph",
+      "titleCn": "英国移民——折线图",
+      "topic": "Line graph showing UK immigration, emigration and net migration (1999–2008)",
+      "topicCn": "折线图展示英国移民、迁出和净移民数据 (1999–2008)",
+      "taskType": "task1",
+      "band": 9,
+      "wordCount": 159,
+      "chartType": "line-graph",
+      "sentences": [
+        {
+          "english": "The chart gives information about UK immigration, emigration and net migration between 1999 and 2008.",
+          "chinese": "该图表提供了1999年至2008年间英国移民、迁出和净移民的信息。"
+        },
+        {
+          "english": "Both immigration and emigration rates rose over the period shown, but the figures for immigration were significantly higher.",
+          "chinese": "在所展示期间移民和迁出率均有所上升，但移民的数字明显更高。"
+        },
+        {
+          "english": "Net migration peaked in 2004 and 2007.",
+          "chinese": "净移民在2004年和2007年达到峰值。"
+        },
+        {
+          "english": "In 1999, over 450,000 people came to live in the UK, while the number of people who emigrated stood at just under 300,000.",
+          "chinese": "1999年超过45万人来到英国定居，而迁出人数略低于30万。"
+        },
+        {
+          "english": "The figure for net migration was around 160,000, and it remained at a similar level until 2003.",
+          "chinese": "净移民数约为16万，并在2003年前保持类似水平。"
+        },
+        {
+          "english": "From 1999 to 2004, the immigration rate rose by nearly 150,000 people, but there was a much smaller rise in emigration.",
+          "chinese": "1999年至2004年间，移民率增加了近15万人，但迁出率增幅要小得多。"
+        },
+        {
+          "english": "Net migration peaked at almost 250,000 people in 2004.",
+          "chinese": "净移民在2004年达到峰值约25万人。"
+        },
+        {
+          "english": "After 2004, the rate of immigration remained high, but the number of people emigrating fluctuated.",
+          "chinese": "2004年后移民率保持高位，但迁出人数出现波动。"
+        },
+        {
+          "english": "Emigration fell suddenly in 2007, before peaking at about 420,000 people in 2008.",
+          "chinese": "迁出人数在2007年突然下降，随后在2008年达到峰值约42万人。"
+        },
+        {
+          "english": "As a result, the net migration figure rose to around 240,000 in 2007, but fell back to around 160,000 in 2008.",
+          "chinese": "因此净移民数在2007年升至约24万，但在2008年回落至约16万。"
+        }
+      ]
+    },
+    {
+      "id": "t1-03",
+      "title": "Marriages and Divorces — Bar Charts",
+      "titleCn": "婚姻与离婚——柱形图",
+      "topic": "Bar charts showing US marriages/divorces and marital status (1970–2000)",
+      "topicCn": "柱形图展示美国婚姻/离婚率和婚姻状况 (1970–2000)",
+      "taskType": "task1",
+      "band": 9,
+      "wordCount": 174,
+      "chartType": "bar-chart",
+      "sentences": [
+        {
+          "english": "The first bar chart shows changes in the number of marriages and divorces in the USA, and the second chart shows figures for the marital status of American adults in 1970 and 2000.",
+          "chinese": "第一张柱形图展示了美国结婚和离婚数量的变化，第二张展示了1970年和2000年美国成年人的婚姻状况数据。"
+        },
+        {
+          "english": "It is clear that there was a fall in the number of marriages in the USA between 1970 and 2000.",
+          "chinese": "很明显1970年至2000年间美国的结婚数量下降了。"
+        },
+        {
+          "english": "The majority of adult Americans were married in both years, but the proportion of single adults was higher in 2000.",
+          "chinese": "这两年中大多数美国成年人为已婚状态，但2000年单身成年人的比例更高。"
+        },
+        {
+          "english": "In 1970, there were 2.5 million marriages in the USA and 1 million divorces.",
+          "chinese": "1970年美国有250万对婚姻和100万起离婚。"
+        },
+        {
+          "english": "The marriage rate remained stable in 1980, but fell to 2 million by the year 2000.",
+          "chinese": "结婚率在1980年保持稳定，但到2000年降至200万。"
+        },
+        {
+          "english": "In contrast, the divorce rate peaked in 1980, at nearly 1.5 million divorces, before falling back to 1 million at the end of the period.",
+          "chinese": "相比之下离婚率在1980年达到峰值近150万起，随后回落至期末的100万。"
+        },
+        {
+          "english": "Around 70% of American adults were married in 1970, but this figure dropped to just under 60% by 2000.",
+          "chinese": "1970年约70%的美国成年人已婚，但这一数字到2000年降至不足60%。"
+        },
+        {
+          "english": "At the same time, the proportion of unmarried people and divorcees rose by about 10% in total.",
+          "chinese": "与此同时未婚和离异人士的比例总共上升了约10%。"
+        },
+        {
+          "english": "The proportion of widowed Americans was slightly lower in 2000.",
+          "chinese": "2000年美国鳏寡人士的比例略低。"
+        }
+      ]
+    },
+    {
+      "id": "t1-04",
+      "title": "Electricity Production — Pie Charts",
+      "titleCn": "发电量——饼图",
+      "topic": "Pie charts comparing electricity production by fuel source in Australia and France (1980–2000)",
+      "topicCn": "饼图比较澳大利亚和法国按燃料来源分的发电量 (1980–2000)",
+      "taskType": "task1",
+      "band": 9,
+      "wordCount": 170,
+      "chartType": "pie-chart",
+      "sentences": [
+        {
+          "english": "The pie charts compare the amount of electricity produced using five different sources of fuel in two countries over two separate years.",
+          "chinese": "该饼图比较了两国在两个不同年份使用五种不同燃料来源发电的量。"
+        },
+        {
+          "english": "Total electricity production increased dramatically from 1980 to 2000 in both Australia and France.",
+          "chinese": "1980年至2000年澳大利亚和法国的总发电量均大幅增加。"
+        },
+        {
+          "english": "While the totals for both countries were similar, there were big differences in the fuel sources used.",
+          "chinese": "虽然两国的总量相似，但使用的燃料来源存在巨大差异。"
+        },
+        {
+          "english": "Coal was used to produce 50 of the total 100 units of electricity in Australia in 1980, rising to 130 out of 170 units in 2000.",
+          "chinese": "1980年澳大利亚总发电量100个单位中煤炭贡献了50个，2000年升至170个中的130个。"
+        },
+        {
+          "english": "By contrast, nuclear power became the most important fuel source in France in 2000, producing almost 75% of the country's electricity.",
+          "chinese": "相比之下2000年核能成为法国最重要的燃料来源，贡献全国近75%的电力。"
+        },
+        {
+          "english": "Australia depended on hydro power for just under 25% of its electricity in both years, but the amount of electricity produced using this type of power fell from 5 to only 2 units in France.",
+          "chinese": "澳大利亚两年中约25%的电力依赖水力发电，但法国使用该类型电力从5个单位降至仅2个。"
+        },
+        {
+          "english": "Oil, on the other hand, remained a relatively important fuel source in France, but its use declined in Australia.",
+          "chinese": "另一方面石油在法国仍是相对重要的燃料来源，但在澳大利亚使用量下降。"
+        },
+        {
+          "english": "Both countries relied on natural gas for electricity production significantly more in 1980 than in 2000.",
+          "chinese": "两国1980年对天然气发电的依赖程度均显著高于2000年。"
+        }
+      ]
+    },
+    {
+      "id": "t1-05",
+      "title": "Brick Manufacturing — Process Diagram",
+      "titleCn": "制砖流程——过程图",
+      "topic": "Process diagram showing how bricks are manufactured for the building industry",
+      "topicCn": "过程图展示建筑行业用砖的制造过程",
+      "taskType": "task1",
+      "band": 9,
+      "wordCount": 173,
+      "chartType": "process",
+      "sentences": [
+        {
+          "english": "The diagram illustrates the process by which bricks are manufactured for the building industry.",
+          "chinese": "该图展示了建筑行业用砖的制造过程。"
+        },
+        {
+          "english": "Overall, the process consists of seven distinct stages, beginning with the digging of clay and ending with the delivery of finished bricks.",
+          "chinese": "总的说来该过程包含七个不同阶段，从挖掘黏土开始，以成品砖的交付结束。"
+        },
+        {
+          "english": "First, the clay used to make the bricks is dug up from the ground by a large digger.",
+          "chinese": "首先用大型挖掘机从地面挖出用于制砖的黏土。"
+        },
+        {
+          "english": "This clay is then placed onto a metal grid, which is used to break up the clay into smaller pieces.",
+          "chinese": "然后将黏土放在金属格栅上，用于将黏土破碎成更小的块。"
+        },
+        {
+          "english": "A roller assists in this process.",
+          "chinese": "一个滚筒在此过程中协助操作。"
+        },
+        {
+          "english": "Following this, sand and water are added to the clay, and this mixture is turned into bricks by either placing it into a mould or using a wire cutter.",
+          "chinese": "之后向黏土中加入沙和水，这种混合物通过放入模具或使用钢丝切割机被制成砖坯。"
+        },
+        {
+          "english": "Next, these bricks are placed in an oven to dry for 24 to 48 hours.",
+          "chinese": "接下来将这些砖坯放入烘干炉中干燥24至48小时。"
+        },
+        {
+          "english": "In the subsequent stage, the bricks go through a heating and cooling process.",
+          "chinese": "在随后阶段砖块经过加热和冷却过程。"
+        },
+        {
+          "english": "They are heated in a kiln at a moderate temperature of 200°C to 980°C, followed by a high temperature of 870°C to 1300°C.",
+          "chinese": "它们在窑中以200°C至980°C的中温加热，然后在870°C至1300°C的高温下继续烧制。"
+        },
+        {
+          "english": "They are then cooled in a cooling chamber for 48 to 72 hours.",
+          "chinese": "然后在冷却室中冷却48至72小时。"
+        },
+        {
+          "english": "Finally, the finished bricks are packed and delivered to their destinations by truck.",
+          "chinese": "最后成品砖被打包并用卡车运到目的地。"
+        }
+      ]
+    }
+  ]
+}
