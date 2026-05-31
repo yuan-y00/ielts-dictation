@@ -223,7 +223,8 @@ const App = (() => {
         if (ni < e.sentences.length) {
             setActive(eid, ni);
             focusScroll(eid, ni);
-            if (auto) setTimeout(() => copyStart(eid, ni), 150);
+            // Always play the audio for the next sentence
+            setTimeout(() => speaker(eid, ni), 200);
             return;
         }
         // Next essay
@@ -234,7 +235,7 @@ const App = (() => {
                 if (!Storage.isCompleted(ne.id, k)) {
                     setActive(ne.id, k);
                     focusScroll(ne.id, k);
-                    if (auto) setTimeout(() => copyStart(ne.id, k), 150);
+                    setTimeout(() => speaker(ne.id, k), 200);
                     return;
                 }
             }
