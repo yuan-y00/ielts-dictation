@@ -266,18 +266,28 @@ body {
 @keyframes t-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes t-out { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-8px); } }
 
-/* ---- Scroll top ---- */
-.btn-scroll-top {
+/* ---- Float nav: split pill — left=jump, right=top ---- */
+.float-nav {
     position: fixed; bottom: 22px; right: 22px;
-    width: 40px; height: 40px; border-radius: 50%;
-    border: none; background: var(--navy); color: #fff;
-    font-size: 1rem; cursor: pointer;
+    display: flex;
+    border-radius: 999px;
+    overflow: hidden;
     box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    transition: all var(--trans);
     opacity: 0; pointer-events: none; z-index: 100;
+    transition: opacity var(--trans);
 }
-.btn-scroll-top.visible { opacity: 1; pointer-events: auto; }
-.btn-scroll-top:hover { background: var(--terracotta); }
+.float-nav.visible { opacity: 1; pointer-events: auto; }
+.float-nav .nav-half {
+    width: 36px; height: 38px;
+    border: none; background: var(--navy); color: #fff;
+    font-size: 0.95rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background var(--trans);
+}
+.float-nav .nav-half:hover { background: var(--terracotta); }
+.float-nav .nav-divider {
+    width: 1px; background: rgba(255,255,255,0.25);
+}
 
 /* ---- Footer ---- */
 .app-footer { text-align: center; padding: 28px 12px 20px; color: #BBB; font-size: 0.75rem; }

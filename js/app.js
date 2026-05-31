@@ -366,18 +366,36 @@ const App = (() => {
         setTimeout(() => t.remove(), 2200);
     }
 
-    function scrollWatch() {
-        let b = $('.btn-scroll-top');
-        if (window.scrollY > 500) {
-            if (!b) {
-                b = document.createElement('button');
-                b.className = 'btn-scroll-top visible';
-                b.textContent = '⬆';
-                b.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-                document.body.appendChild(b);
+    function jumpToFirstUndone() {
+        if (!data) return;
+        for (const essay of data.essays) {
+            for (let i = 0; i < essay.sentences.length; i++) {
+                if (!Storage.isCompleted(essay.id, i)) {
+                    const row = $(`#row-${essay.id}-${i}`);
+                    if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    return;
+                }
             }
-            b.classList.add('visible');
-        } else if (b) { b.classList.remove('visible'); }
+        }
+        toast('🎉 全部完成!', 'ok');
+    }
+
+    function scrollWatch() {
+        let nav = $('.float-nav');
+        if (window.scrollY > 400) {
+            if (!nav) {
+                nav = document.createElement('div');
+                nav.className = 'float-nav visible';
+                nav.innerHTML = `
+                    <button class="nav-half" title="跳到未完成">📍</button>
+                    <div class="nav-divider"></div>
+                    <button class="nav-half" title="回到顶部">⬆</button>`;
+                nav.children[0].addEventListener('click', jumpToFirstUndone);
+                nav.children[2].addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+                document.body.appendChild(nav);
+            }
+            nav.classList.add('visible');
+        } else if (nav) { nav.classList.remove('visible'); }
     }
 
     function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
