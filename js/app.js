@@ -112,21 +112,22 @@ const App = (() => {
             <div class="sentence-main">
                 <p class="sentence-en">${esc(sent.english)}</p>
                 <p class="sentence-cn">${esc(sent.chinese)}</p>
-                <textarea class="sentence-input"
+                ${done
+                    ? ''
+                    : `<textarea class="sentence-input"
                           id="inp-${essay.id}-${idx}"
                           data-essay="${essay.id}" data-idx="${idx}"
                           placeholder="Type here, press Enter…"
                           rows="1"
-                          ${done ? 'disabled' : ''}
-                >${done ? esc(sent.english) : ''}</textarea>
-                <div class="sentence-cmp" id="cmp-${essay.id}-${idx}"></div>
+                    ></textarea>
+                    <div class="sentence-cmp" id="cmp-${essay.id}-${idx}"></div>`}
             </div>
+            <div class="sentence-actions">
+                <button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">🔊</button>
                 ${done
-                    ? '<div class="sentence-actions"></div>'
-                    : `<div class="sentence-actions">
-                           <button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">🔊</button>
-                           <button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✏️</button>
-                       </div>`}
+                    ? '<span class="done-mark">✅</span>'
+                    : `<button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✏️</button>`}
+            </div>
         </div>`;
     }
 
@@ -195,10 +196,20 @@ const App = (() => {
             const exp = e.sentences[idx].english;
             if (compare(val, exp)) {
                 Storage.markCompleted(e.id, idx);
-                inp.classList.add('correct');
-                inp.disabled = true;
                 const row = $(`#row-${eid}-${idx}`);
-                if (row) { row.classList.add('completed'); row.querySelector('.sentence-actions').innerHTML = ''; }
+                if (row) {
+                    row.classList.add('completed');
+                    // Remove input + comparison
+                    const inpEl = row.querySelector('.sentence-input');
+                    const cmpEl = row.querySelector('.sentence-cmp');
+                    if (inpEl) inpEl.remove();
+                    if (cmpEl) cmpEl.remove();
+                    // ✏️ → ✅
+                    const penBtn = row.querySelector('.btn-icon.pen');
+                    if (penBtn) {
+                        penBtn.replaceWith(Object.assign(document.createElement('span'), { className: 'done-mark', textContent: '✅' }));
+                    }
+                }
                 toast('✓ Perfect!', 'ok');
                 renderInfo();
                 setTimeout(() => moveNext(eid, idx), 180);

@@ -241,7 +241,7 @@ body {
 .btn-icon.spk.playing { background: var(--navy); color: #fff; animation: pulse 1s ease-in-out infinite; }
 .btn-icon.pen { color: var(--sage-dark); }
 .btn-icon.pen:hover { background: var(--sage-bg); color: var(--sage-dark); }
-.done-mark { font-size: 0.9rem; opacity: 0.45; }
+.done-mark { font-size: 1.1rem; }
 
 @keyframes pulse {
     0%, 100% { box-shadow: 0 0 0 0 rgba(61,90,128,0.4); }
