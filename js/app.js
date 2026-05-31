@@ -119,16 +119,14 @@ const App = (() => {
                           rows="1"
                           ${done ? 'disabled' : ''}
                 >${done ? esc(sent.english) : ''}</textarea>
-                <div class="sentence-cmp${done ? ' show ok' : ''}" id="cmp-${essay.id}-${idx}">
-                    ${done ? '✓' : ''}
-                </div>
+                <div class="sentence-cmp" id="cmp-${essay.id}-${idx}"></div>
             </div>
-            <div class="sentence-actions">
                 ${done
-                    ? '<span class="done-mark">✓</span>'
-                    : `<button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">🔊</button>
-                       <button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✏️</button>`}
-            </div>
+                    ? '<div class="sentence-actions"></div>'
+                    : `<div class="sentence-actions">
+                           <button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">🔊</button>
+                           <button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✏️</button>
+                       </div>`}
         </div>`;
     }
 
@@ -200,9 +198,7 @@ const App = (() => {
                 inp.classList.add('correct');
                 inp.disabled = true;
                 const row = $(`#row-${eid}-${idx}`);
-                if (row) { row.classList.add('completed'); row.querySelector('.sentence-actions').innerHTML = '<span class="done-mark">✓</span>'; }
-                const cmp = $(`#cmp-${eid}-${idx}`);
-                if (cmp) { cmp.className = 'sentence-cmp show ok'; cmp.textContent = '✓ Perfect!'; }
+                if (row) { row.classList.add('completed'); row.querySelector('.sentence-actions').innerHTML = ''; }
                 toast('✓ Perfect!', 'ok');
                 renderInfo();
                 setTimeout(() => moveNext(eid, idx), 180);
