@@ -1,0 +1,1928 @@
+{
+  "id": "jabx-interview",
+  "icon": "JX",
+  "title": "JabX Customer Interview Script",
+  "description": "Realistic JabX customer interview role-play script for listening, shadowing, and dictation.",
+  "essays": [
+    {
+      "id": "jabx-01",
+      "title": "Part 1",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 1",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 358,
+      "sentences": [
+        {
+          "role": "Interviewer",
+          "english": "Hi, I'm [name]. We're from the JabX product team.",
+          "chinese": "嗨，我是[名字]。我们来自 JabX 产品团队。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "We believe boxing is a powerful form of training. It is not only a professional skill, but also a very efficient way to do cardio and HIIT.",
+          "chinese": "我们相信拳击是一种强大的训练形式。它不仅是一项专业技能，也是一种非常有效的有氧运动和HIIT方法。"
+        },
+        {
+          "role": "Customer",
+          "english": "Hi, nice to meet you. Yeah, I can see that.",
+          "chinese": "你好，很高兴认识你。是的，我看得出来。"
+        },
+        {
+          "role": "Customer",
+          "english": "Boxing definitely feels like a high-intensity workout, not just fighting. Even just shadowboxing for three-minute rounds can get my heart rate up pretty fast.",
+          "chinese": "拳击绝对感觉像是一项高强度的锻炼，而不仅仅是格斗。即使只是打三分钟的空击也能让我的心率很快提高。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "From a product perspective, JabX could move in a few different directions.",
+          "chinese": "从产品的角度来看，JabX 可以朝几个不同的方向发展。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "It could become a more professional boxing training product, or it could become more of a home cardio product.",
+          "chinese": "它可以成为更专业的拳击训练产品，也可以成为更偏家庭有氧训练的产品。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Before we decide which direction to focus on first, we'd love to understand what would make a product like JabX truly useful for you.",
+          "chinese": "在我们决定首先关注哪个方向之前，我们很想了解什么能让像 JabX 这样的产品真正对您有用。"
+        },
+        {
+          "role": "Customer",
+          "english": "That makes sense. I would probably look at it more as a home cardio and boxing-skill product, not as a replacement for a real boxing gym.",
+          "chinese": "这是有道理的。我可能会更多地将其视为家庭有氧运动和拳击技能产品，而不是真正的拳击馆的替代品。"
+        },
+        {
+          "role": "Customer",
+          "english": "If you position it as \"professional boxing,\" I may judge it more harshly, because real coaching includes footwork, mitt work, distance control, defensive drills, and sometimes sparring.",
+          "chinese": "如果你把它定位为“职业拳击”，我可能会更严厉地评价它，因为真正的教练包括步法、拳靶训练、距离控制、防守训练，有时还包括实战对练。"
+        },
+        {
+          "role": "Customer",
+          "english": "At home, I mainly need something that makes me show up consistently and sweat.",
+          "chinese": "在家里，我主要需要一些能让我持续出现并流汗的东西。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Before we talk more about JabX, is it okay if I record this call?",
+          "chinese": "在我们详细讨论 JabX 之前，我可以对这次通话进行录音吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, that's fine. As long as it's only for product research, I'm okay with it.",
+          "chinese": "是的，没关系。只要只是为了产品研究，我就可以接受。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Great, thank you. I would love to know a bit about you first.",
+          "chinese": "太好了，谢谢。我很想先了解一下你。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What name would you like us to use during the call?",
+          "chinese": "您希望我们在通话期间使用什么名称？"
+        },
+        {
+          "role": "Customer",
+          "english": "You can call me Alex.",
+          "chinese": "你可以叫我亚历克斯。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Where are you based?",
+          "chinese": "你在哪里？"
+        },
+        {
+          "role": "Customer",
+          "english": "I'm based in Seattle, in the United States.",
+          "chinese": "我住在美国西雅图。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What do you do for a living?",
+          "chinese": "你靠什么谋生？"
+        },
+        {
+          "role": "Customer",
+          "english": "I work as a product manager at a software company. Most of my day is sitting in meetings or in front of a laptop, so I really feel the need to move after work.",
+          "chinese": "我在一家软件公司担任产品经理。我一天的大部分时间都是坐在会议上或坐在笔记本电脑前，所以我真的觉得下班后需要活动一下。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you live with your partner or children?",
+          "chinese": "您与伴侣或孩子住在一起吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Sorry, did you ask if I live with my parents?",
+          "chinese": "抱歉，你问我是否和父母住在一起吗？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Partner or children.",
+          "chinese": "伴侣或孩子。"
+        },
+        {
+          "role": "Customer",
+          "english": "Oh, partner. Yes, I live with my wife.",
+          "chinese": "噢，伙伴。是的，我和我妻子住在一起。"
+        },
+        {
+          "role": "Customer",
+          "english": "We don't have kids, but we do have a dog, which is actually relevant because any moving machine at home needs to be safe around pets.",
+          "chinese": "我们没有孩子，但我们有一只狗，这实际上是相关的，因为家里的任何移动机器都需要在宠物周围安全。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-02",
+      "title": "Part 2",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 2",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 396,
+      "sentences": [
+        {
+          "role": "Interviewer",
+          "english": "I may ask some questions around your workouts. If something feels confusing or unrealistic, please say it directly.",
+          "chinese": "我可能会问一些有关您锻炼的问题。如果感觉有些事情令人困惑或不切实际，请直接说出来。"
+        },
+        {
+          "role": "Customer",
+          "english": "Sure. I will be honest.",
+          "chinese": "当然。我会诚实的。"
+        },
+        {
+          "role": "Customer",
+          "english": "I like fitness products, but I also get annoyed when they feel gimmicky or when the subscription becomes the real product.",
+          "chinese": "我喜欢健身产品，但当它们感觉很花哨或订阅成为真正的产品时，我也会感到恼火。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "First, I'd like to understand your current fitness goals. What are your main fitness goals right now?",
+          "chinese": "首先，我想了解您目前的健身目标。您现在的主要健身目标是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "My main goal is to reduce body fat and improve cardio conditioning.",
+          "chinese": "我的主要目标是减少体内脂肪并改善心肺能力。"
+        },
+        {
+          "role": "Customer",
+          "english": "I don't need to become huge or bodybuilder-level strong. I want to be leaner, have better stamina, and not feel tired going up stairs.",
+          "chinese": "我不需要变得巨大或健美运动员级别的强壮。我想变得更瘦，有更好的耐力，上楼梯不觉得累。"
+        },
+        {
+          "role": "Customer",
+          "english": "I also want workouts that help with stress. Boxing is good for that because hitting something, even a bag, is mentally satisfying.",
+          "chinese": "我还想要有助于缓解压力的锻炼。拳击对此很有好处，因为击中某物，甚至是一个袋子，都能在精神上得到满足。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Are you mainly trying to lose weight, build strength, improve cardio, or something else?",
+          "chinese": "您主要是想减肥、增强体力、改善有氧运动还是其他什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Mostly lose weight and improve cardio. Strength is secondary.",
+          "chinese": "主要是减肥和改善心肺能力。实力是次要的。"
+        },
+        {
+          "role": "Customer",
+          "english": "I do some dumbbell work and bodyweight exercises, but I am not training for a powerlifting total or anything like that.",
+          "chinese": "我做了一些哑铃训练和自重练习，但我不是为了力量举重或类似的训练而训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "My watch tells me my VO2 max is only average, so I would like to improve that.",
+          "chinese": "我的手表告诉我我的最大摄氧量只是平均水平，所以我想改善这一点。"
+        },
+        {
+          "role": "Customer",
+          "english": "I also care about heart-rate zones. For example, I do some Zone 2 cardio, but I also need Zone 4 or Zone 5 intervals because I get bored with long steady-state cardio.",
+          "chinese": "我也关心心率区。例如，我做了一些 2 区有氧运动，但我也需要 4 区或 5 区间歇训练，因为我对长时间稳态有氧运动感到厌倦。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What does your workout routine look like at the moment?",
+          "chinese": "您目前的日常锻炼是什么样的？"
+        },
+        {
+          "role": "Customer",
+          "english": "On a good week, I work out four times. One day is boxing or boxing-style training.",
+          "chinese": "心情好的一周我会锻炼四次。有一天是拳击或拳击式训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "Two days are strength training, usually dumbbells, kettlebells, and some resistance-band work.",
+          "chinese": "两天是力量训练，通常是哑铃、壶铃和一些阻力带训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "One day is cardio, like running, rowing, or cycling. On a bad week, honestly, I only walk the dog and maybe do one short workout.",
+          "chinese": "一天进行有氧运动，比如跑步、划船或骑自行车。老实说，在糟糕的一周里，我只会遛狗，也许还会做一次简短的锻炼。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What types of workouts do you usually do?",
+          "chinese": "您通常进行哪些类型的锻炼？"
+        },
+        {
+          "role": "Customer",
+          "english": "I use a rowing machine sometimes, and I take a boxing class maybe once every two weeks.",
+          "chinese": "我有时会使用划船机，并且大约每两周上一次拳击课。"
+        },
+        {
+          "role": "Customer",
+          "english": "At the boxing gym, we do jump rope, shadowboxing, heavy bag rounds, double-end bag sometimes, and partner drills.",
+          "chinese": "在拳击馆，我们进行跳绳、空击、重沙袋回合、有时双头球以及搭档训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "We do not do hard sparring. I also use Apple Fitness+ sometimes for HIIT or strength, and I track workouts with an Apple Watch.",
+          "chinese": "我们不进行高强度实战对练。我有时还会使用 Apple Fitness+ 进行 HIIT 或力量训练，并使用 Apple Watch 跟踪锻炼情况。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you usually work out outdoors, at home, or at a gym?",
+          "chinese": "您通常在户外、在家还是在健身房锻炼？"
+        },
+        {
+          "role": "Customer",
+          "english": "Mostly at home during the week, because it is easier. The gym takes more time.",
+          "chinese": "工作日大部分时间都在家，因为这样更容易。健身房需要更多时间。"
+        },
+        {
+          "role": "Customer",
+          "english": "Outdoors, I walk and sometimes jog, but Seattle weather is not always friendly.",
+          "chinese": "在户外，我散步，有时慢跑，但西雅图的天气并不总是友好。"
+        },
+        {
+          "role": "Customer",
+          "english": "At home I can do 20 or 30 minutes between meetings or after dinner.",
+          "chinese": "在家里，我可以在会议之间或晚饭后做 20 或 30 分钟。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-03",
+      "title": "Part 3",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 3",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 435,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "That is why I am interested in smart home fitness, but only if it is not too bulky or annoying to set up.",
+          "chinese": "这就是为什么我对智能家居健身感兴趣，但前提是它不太笨重或设置起来不太烦人。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Have you ever tried to lose weight before?",
+          "chinese": "您以前尝试过减肥吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, several times. The most successful time was when I tracked calories and did boxing twice a week.",
+          "chinese": "是的，好几次。最成功的时候是我记录卡路里并每周打两次拳击的时候。"
+        },
+        {
+          "role": "Customer",
+          "english": "The painful part was not the workout itself. The painful part was consistency.",
+          "chinese": "痛苦的部分不是锻炼本身。痛苦的部分是一致性。"
+        },
+        {
+          "role": "Customer",
+          "english": "After two weeks, the motivation drops. Also, when I did only running, my knees started to hurt, and it felt repetitive.",
+          "chinese": "两周后，动力就下降了。而且，当我只跑步时，我的膝盖开始疼痛，而且感觉重复。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Were there any moments in that process that felt particularly painful or difficult?",
+          "chinese": "在这个过程中有没有什么时刻感觉特别痛苦或困难？"
+        },
+        {
+          "role": "Customer",
+          "english": "Diet was the hardest. For exercise, the hardest part was when I felt like the workout was random.",
+          "chinese": "饮食是最难的。对于锻炼来说，最困难的部分是当我觉得锻炼是随机的时。"
+        },
+        {
+          "role": "Customer",
+          "english": "For example, I would do a YouTube HIIT video, but I didn't know if it was actually progressing.",
+          "chinese": "例如，我会制作一个 YouTube HIIT 视频，但我不知道它是否真的取得了进展。"
+        },
+        {
+          "role": "Customer",
+          "english": "It was just \"sweat today, repeat tomorrow.\" I like when there is a plan, like rounds, combinations, target intensity, and some form of feedback.",
+          "chinese": "这只是“今天流汗，明天重复”。我喜欢有计划，比如回合、组合、目标强度和某种形式的反馈。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Our approach is to guide users with professional boxing coaching for efficient workouts.",
+          "chinese": "我们的方法是通过专业的拳击教练指导用户进行有效的锻炼。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "We may also include music and game modes to make the training process more enjoyable. Do you think this would help address your main concerns?",
+          "chinese": "我们还可能包括音乐和游戏模式，使训练过程更加愉快。您认为这有助于解决您的主要担忧吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe. The professional coaching part is attractive, but I would need to see what \"professional\" means.",
+          "chinese": "或许。专业教练部分很有吸引力，但我需要看看“专业”意味着什么。"
+        },
+        {
+          "role": "Customer",
+          "english": "If it only says \"throw a jab, throw a cross\" with music, that is more like a cardio boxing class.",
+          "chinese": "如果它只是用音乐说“刺拳，后手直拳”，那更像是有氧拳击课。"
+        },
+        {
+          "role": "Customer",
+          "english": "That is fine, but I would not call it professional boxing coaching.",
+          "chinese": "这很好，但我不会称之为职业拳击教练。"
+        },
+        {
+          "role": "Customer",
+          "english": "If it can correct my stance, guard, rotation, and timing, then it becomes more valuable.",
+          "chinese": "如果它能纠正我的站位、防守、轮换和时机，那么它就变得更有价值。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What kind of correction would matter to you?",
+          "chinese": "什么样的修正对你来说很重要？"
+        },
+        {
+          "role": "Customer",
+          "english": "Things like whether I am dropping my rear hand after the jab, whether I am overreaching on the cross, whether my lead foot is in the right position, whether my hips rotate on the hook, and whether I return to guard.",
+          "chinese": "比如我在刺拳后是否放下后手，我是否在后手直拳上伸手过度，我的前脚是否处于正确的位置，我的臀部是否在勾拳上旋转，以及我是否返回防守。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also footwork. A lot of home boxing products focus only on punches, but boxing is also stance, weight transfer, pivots, slips, rolls, and distance.",
+          "chinese": "还有脚法。许多家庭拳击产品只关注出拳，但拳击也包括站姿、重量转移、旋转、滑移、翻滚和距离。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do music and game modes sound useful?",
+          "chinese": "音乐和游戏模式听起来有用吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, but with a limit. Music helps me keep rhythm, and game modes help me start a workout when I don't feel motivated.",
+          "chinese": "可以，但有限制。音乐帮助我保持节奏，游戏模式帮助我在没有动力时开始锻炼。"
+        },
+        {
+          "role": "Customer",
+          "english": "But if it becomes too much like a toy, I would lose trust.",
+          "chinese": "但如果它变得太像玩具，我就会失去信任。"
+        },
+        {
+          "role": "Customer",
+          "english": "I don't want it to be only \"hit the lights\" like an arcade game.",
+          "chinese": "我不希望它只是像街机游戏那样“撞灯”。"
+        },
+        {
+          "role": "Customer",
+          "english": "I want a real training mode and a fun mode. Both can exist.",
+          "chinese": "我想要一个真正的训练模式和一个有趣的模式。两者都可以存在。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Now I'd like to better understand your boxing experience. Would you say you have no boxing experience, have only taken kickboxing classes, have done recreational boxing or interest-based practice, or have had formal boxing training?",
+          "chinese": "现在我想更好地了解你的拳击经历。您是否会说您没有拳击经验，只参加过踢拳课，进行过休闲拳击或基于兴趣的练习，或者接受过正式的拳击训练？"
+        }
+      ]
+    },
+    {
+      "id": "jabx-04",
+      "title": "Part 4",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 4",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 374,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "I would say recreational boxing. I am not a fighter.",
+          "chinese": "我想说的是休闲拳击。我不是战士。"
+        },
+        {
+          "role": "Customer",
+          "english": "I have taken real boxing classes for maybe one year, not consistently every week.",
+          "chinese": "我参加了大约一年的真正的拳击课程，但不是每周都坚持参加。"
+        },
+        {
+          "role": "Customer",
+          "english": "I know the basic punches: jab, cross, lead hook, rear hook, uppercut.",
+          "chinese": "我知道基本的拳法：刺拳、横拳、前勾拳、后勾拳、上勾拳。"
+        },
+        {
+          "role": "Customer",
+          "english": "I train in an orthodox stance. I understand basic defensive moves like slip, duck, roll, parry, and high guard, but I am not good at them under pressure.",
+          "chinese": "我以正统的姿势训练。我了解基本的防守动作，如闪避、闪避、翻滚、招架和高位防守，但在压力下我不擅长这些动作。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Have you ever taken a kickboxing class?",
+          "chinese": "您参加过踢拳课吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, but only a few. Kickboxing classes are fun, but they are different.",
+          "chinese": "是的，但只有少数。踢拳课程很有趣，但又有所不同。"
+        },
+        {
+          "role": "Customer",
+          "english": "There is more kicking, knees, and sometimes Muay Thai-style movements. For JabX, I assume it is boxing, not kickboxing, right?",
+          "chinese": "有更多的踢腿、膝盖，有时还有泰拳风格的动作。对于 JabX，我认为它是拳击，而不是踢拳，对吧？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Yes, the core is boxing.",
+          "chinese": "是的，核心就是拳击。"
+        },
+        {
+          "role": "Customer",
+          "english": "Okay, then I would expect it to teach boxing basics properly.",
+          "chinese": "好吧，那么我希望它能够正确地教授拳击基础知识。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would be disappointed if the form is too loose. A lot of cardio boxing classes let people punch with bad wrist alignment or no shoulder protection, and that can create bad habits.",
+          "chinese": "如果动作太松散，我会感到失望。许多有氧拳击课程让人们在手腕对齐不良或没有肩部保护的情况下出拳，这可能会养成坏习惯。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Next, I'd like to understand what fitness solutions you currently use.",
+          "chinese": "接下来，我想了解一下您目前使用的健身解决方案有哪些。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What fitness equipment do you currently have at home, if any?",
+          "chinese": "您目前家里有哪些健身器材（如果有）？"
+        },
+        {
+          "role": "Customer",
+          "english": "At home, I have adjustable dumbbells, resistance bands, a yoga mat, a jump rope, and a rowing machine.",
+          "chinese": "在家里，我有可调节的哑铃、阻力带、瑜伽垫、跳绳和划船机。"
+        },
+        {
+          "role": "Customer",
+          "english": "I used to have a standing heavy bag, but I sold it because it took up too much space and was loud. I also have an Apple Watch and a smart scale.",
+          "chinese": "我曾经有一个站立的重包，但我把它卖了，因为它太占空间而且声音很大。我还有一块 Apple Watch 和一个智能体重秤。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you have anything like a treadmill, fitness spinning bike, rowing machine, elliptical, walking pad, weights, resistance bands, punching bag, or any smart fitness device?",
+          "chinese": "您有跑步机、健身动感单车、划船机、椭圆机、步行垫、举重器、阻力带、沙袋或任何智能健身设备吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, rowing machine, weights, resistance bands, and smart scale. No treadmill or Peloton bike.",
+          "chinese": "是的，划船机、举重器、阻力带和智能体重秤。没有跑步机或 Peloton 自行车。"
+        },
+        {
+          "role": "Customer",
+          "english": "I considered a walking pad, but I was worried it would become another piece of equipment under the bed.",
+          "chinese": "我考虑过使用步行垫，但我担心它会成为床下的另一件设备。"
+        },
+        {
+          "role": "Customer",
+          "english": "I also considered Tonal or a smart mirror, but the price and subscription felt too high.",
+          "chinese": "我也考虑过 Tonal 或智能镜子，但价格和订阅感觉太高了。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "When you bought the rowing machine, what were your expectations for it?",
+          "chinese": "当您购买划船机时，您对它的期望是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "I expected it to be a full-body cardio machine, lower impact than running.",
+          "chinese": "我期望它是一台全身有氧运动机器，比跑步的冲击力小。"
+        },
+        {
+          "role": "Customer",
+          "english": "I liked that rowing uses legs, back, and arms. I also liked the numbers: split time, stroke rate, distance, calories, and heart rate. It feels measurable.",
+          "chinese": "我喜欢划船需要用到腿、背部和手臂。我还喜欢这些数字：分段时间、划水频率、距离、卡路里和心率。感觉是可以衡量的。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "How much did you pay?",
+          "chinese": "你付了多少钱？"
+        },
+        {
+          "role": "Customer",
+          "english": "Around 900 dollars. It was not the most expensive one, but not cheap either.",
+          "chinese": "900美元左右。这不是最贵的，但也不便宜。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Did it meet your expectations?",
+          "chinese": "它符合您的期望吗？"
+        }
+      ]
+    },
+    {
+      "id": "jabx-05",
+      "title": "Part 5",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 5",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 336,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Partly. It is effective, but boring.",
+          "chinese": "部分。它很有效，但很无聊。"
+        },
+        {
+          "role": "Customer",
+          "english": "The motion is repetitive. After 15 minutes, I start watching the timer.",
+          "chinese": "动作是重复的。 15 分钟后，我开始看计时器。"
+        },
+        {
+          "role": "Customer",
+          "english": "With boxing, the combinations can change, so mentally it is more engaging.",
+          "chinese": "对于拳击来说，组合可以改变，所以在心理上它更有吸引力。"
+        },
+        {
+          "role": "Customer",
+          "english": "But rowing is quieter and easier to understand. JabX would need to beat that boredom problem without creating a new noise problem.",
+          "chinese": "但划船更安静，也更容易理解。 JabX 需要克服无聊问题，同时又不产生新的噪音问题。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Have you ever taken group fitness classes, private training sessions, or worked out on your own at the gym?",
+          "chinese": "您是否参加过团体健身课程、私人训练课程或自己在健身房锻炼过？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes. I have taken group boxing classes and HIIT classes.",
+          "chinese": "是的。我参加了团体拳击课程和 HIIT 课程。"
+        },
+        {
+          "role": "Customer",
+          "english": "I have also done personal training for strength. A personal trainer is the best for form, because they can see you and correct you immediately, but it is expensive.",
+          "chinese": "我还进行了个人力量训练。私人教练是最好的形式，因为他们可以看到你并立即纠正你，但价格昂贵。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What were your expectations for those classes?",
+          "chinese": "您对这些课程有何期望？"
+        },
+        {
+          "role": "Customer",
+          "english": "For boxing classes, I expected motivation, technique, and a hard workout.",
+          "chinese": "对于拳击课，我期望动力、技术和艰苦的锻炼。"
+        },
+        {
+          "role": "Customer",
+          "english": "The group energy helps a lot. When a coach says, \"hands up, chin down, rotate your hips,\" I respond better than when I am alone.",
+          "chinese": "团体能量有很大帮助。当教练说“举起手来，下巴向下，旋转臀部”时，我的反应比独自一人时更好。"
+        },
+        {
+          "role": "Customer",
+          "english": "For HIIT classes, I expected sweat and calories burned, not much technique.",
+          "chinese": "对于 HIIT 课程，我期望的是流汗和燃烧卡路里，而不是太多技巧。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "How much did you pay?",
+          "chinese": "你付了多少钱？"
+        },
+        {
+          "role": "Customer",
+          "english": "A drop-in boxing class is around 25 to 35 dollars here.",
+          "chinese": "这里的拳击课程费用约为 25 至 35 美元。"
+        },
+        {
+          "role": "Customer",
+          "english": "A monthly membership can be 150 to 200 dollars depending on the gym.",
+          "chinese": "每月会员费为 150 至 200 美元，具体取决于健身房。"
+        },
+        {
+          "role": "Customer",
+          "english": "Personal training is more like 80 to 120 dollars per session, which is too much for me to do regularly.",
+          "chinese": "个人训练每次大约 80 到 120 美元，这对我来说定期进行来说太多了。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What do you like about your current equipment or classes?",
+          "chinese": "您对当前的设备或课程有何看法？"
+        },
+        {
+          "role": "Customer",
+          "english": "I like that the rowing machine is simple and measurable. I like that boxing classes are engaging and coached.",
+          "chinese": "我喜欢划船机简单且可测量。我喜欢拳击课程的吸引力和指导性。"
+        },
+        {
+          "role": "Customer",
+          "english": "I like that dumbbells are flexible. Resistance bands are cheap and easy to store.",
+          "chinese": "我喜欢哑铃的灵活性。阻力带价格便宜且易于存放。"
+        },
+        {
+          "role": "Customer",
+          "english": "The problem is that none of them combine coaching, fun, and low friction perfectly.",
+          "chinese": "问题是它们都没有完美地将指导、乐趣和低摩擦结合起来。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you think these plans or products could be designed better?",
+          "chinese": "您认为这些计划或产品还可以设计得更好吗？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "For example, I might want a treadmill that allows me to do aerobic running first and then anaerobic running.",
+          "chinese": "例如，我可能想要一台跑步机，可以让我先进行有氧跑，然后进行无氧跑。"
+        },
+        {
+          "role": "Customer",
+          "english": "Sorry, can you repeat the example?",
+          "chinese": "抱歉，您能重复一下这个例子吗？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "For example, I might want a treadmill that allows me to do aerobic running first and then anaerobic running.",
+          "chinese": "例如，我可能想要一台跑步机，可以让我先进行有氧跑，然后进行无氧跑。"
+        },
+        {
+          "role": "Customer",
+          "english": "Got it. Yes, I think programs could be designed better.",
+          "chinese": "知道了。是的，我认为程序可以设计得更好。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-06",
+      "title": "Part 6",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 6",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 388,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "A lot of fitness products give random workouts, but not a real progression.",
+          "chinese": "许多健身产品提供随机锻炼，但不是真正的渐进锻炼。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would like a plan that says, \"today is endurance, tomorrow is power, Friday is technique.\"",
+          "chinese": "我想要一个计划，上面写着：“今天是耐力，明天是力量，周五是技术。”"
+        },
+        {
+          "role": "Customer",
+          "english": "For boxing, it could be: warm-up, footwork, jab-cross accuracy, defensive slips, then a conditioning finisher. It should have a reason behind it.",
+          "chinese": "对于拳击来说，可能是：热身、步法、刺拳准确度、防守失误，然后是体能终结。这背后应该有一个原因。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you have any equipment that you no longer use?",
+          "chinese": "您有不再使用的设备吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, the standing heavy bag. I also have a jump rope I barely use because my ceilings are low and I worry about hitting the light fixture.",
+          "chinese": "是的，站立的重包。我还有一根几乎不使用的跳绳，因为我的天花板很低，而且我担心会撞到灯具。"
+        },
+        {
+          "role": "Customer",
+          "english": "The rowing machine is still used, but not as often as I expected.",
+          "chinese": "划船机仍在使用，但没有我预期的那么频繁。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Why did the heavy bag fail for you?",
+          "chinese": "为什么沙袋对你来说失败了？"
+        },
+        {
+          "role": "Customer",
+          "english": "Space and noise. The base was huge, and when I hit it, it moved around.",
+          "chinese": "空间和噪音。底座很大，当我击中它时，它就会移动。"
+        },
+        {
+          "role": "Customer",
+          "english": "My wife did not love the thumping sound. Also, without coaching, I would just throw random combos for ten minutes.",
+          "chinese": "我的妻子不喜欢重击声。另外，在没有指导的情况下，我只会随机组合十分钟。"
+        },
+        {
+          "role": "Customer",
+          "english": "It felt good, but I did not know if I was improving.",
+          "chinese": "感觉很好，但我不知道我是否在进步。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Have you ever wanted to buy a piece of fitness equipment, but didn't end up buying it? Why?",
+          "chinese": "您是否曾经想购买一件健身器材，但最后却没有买到？为什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, I wanted to buy a smart punching system, like a rhythm-based boxing device.",
+          "chinese": "是的，我想购买一个智能拳击系统，比如基于节奏的拳击设备。"
+        },
+        {
+          "role": "Customer",
+          "english": "I did not buy it because I was not sure if it was real training or just a game.",
+          "chinese": "我没有买它，因为我不确定这是真正的训练还是只是一个游戏。"
+        },
+        {
+          "role": "Customer",
+          "english": "I also worried about the subscription. I do not want to pay 1,000 dollars for hardware and then be forced into 39 dollars a month forever.",
+          "chinese": "我也担心订阅的问题。我不想为硬件支付 1,000 美元，然后被迫永远每月 39 美元。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you still remember the JabX product you saw in the survey?",
+          "chinese": "您还记得您在调查中看到的 JabX 产品吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "I remember parts of it, but not everything. It had a vertical machine shape, and I think there were arms or targets that moved?",
+          "chinese": "我记得其中的一部分，但不是全部。它有一个垂直的机器形状，我认为有移动的手臂或目标？"
+        },
+        {
+          "role": "Customer",
+          "english": "I may be mixing it up with another product, so maybe show it again.",
+          "chinese": "我可能会将其与其他产品混合在一起，所以也许会再次展示。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "No problem. Let me show you the product again. After watching it, how do you think it works?",
+          "chinese": "没问题。让我再次向您展示产品。看完之后，你觉得效果如何呢？"
+        },
+        {
+          "role": "Customer",
+          "english": "Okay, after seeing it again, I think it is a smart boxing trainer.",
+          "chinese": "好吧，再看一遍，我认为它是一个智能拳击训练器。"
+        },
+        {
+          "role": "Customer",
+          "english": "It looks like the user punches targets or pads, and the machine gives workout guidance.",
+          "chinese": "看起来就像用户敲打目标或垫子，机器会提供锻炼指导。"
+        },
+        {
+          "role": "Customer",
+          "english": "The robot arm part seems to create dodging or defensive movements, like slipping under a punch or ducking. Is that right?",
+          "chinese": "机器人手臂部分似乎会产生躲避或防御动作，例如在拳头下滑倒或躲避。是这样吗？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Yes, that's the idea.",
+          "chinese": "是的，就是这个想法。"
+        },
+        {
+          "role": "Customer",
+          "english": "Interesting. My first reaction is, \"this is cool,\" but my second reaction is, \"will I actually use this after the first month?\"",
+          "chinese": "有趣的。我的第一反应是，“这很酷”，但我的第二反应是，“第一个月后我真的会使用它吗？”"
+        },
+        {
+          "role": "Customer",
+          "english": "It feels more exciting than a rowing machine, but also more complex.",
+          "chinese": "感觉比划船机更刺激，但也更复杂。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-07",
+      "title": "Part 7",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 7",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 361,
+      "sentences": [
+        {
+          "role": "Interviewer",
+          "english": "Did it feel more like a cardio device, a boxing training device, a game-like fitness product, or something else?",
+          "chinese": "它是不是感觉更像是一个有氧运动设备、拳击训练设备、类似游戏的健身产品，还是其他什么东西？"
+        },
+        {
+          "role": "Customer",
+          "english": "To me, it feels like a hybrid: cardio boxing plus smart coaching.",
+          "chinese": "对我来说，这感觉就像是一种混合体：有氧拳击加上智能教练。"
+        },
+        {
+          "role": "Customer",
+          "english": "If the sensors are accurate and the courses are structured, then it can be a boxing training device.",
+          "chinese": "如果传感器准确并且课程结构化，那么它可以成为拳击训练设备。"
+        },
+        {
+          "role": "Customer",
+          "english": "If the main experience is lights, music, and scores, then it feels more like game-like fitness. I would personally prefer 60% real training, 40% game.",
+          "chinese": "如果主要体验是灯光、音乐、分数，那么感觉更像是游戏般的健身。我个人更喜欢 60% 真实训练，40% 游戏。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Would you like to watch the product video again?",
+          "chinese": "您想再观看一次产品视频吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe just the robot arm part again. I want to understand how close it comes to the user and how fast it moves.",
+          "chinese": "也许又只是机器人手臂的一部分。我想了解它与用户的距离有多近以及移动的速度有多快。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Is there anything that is unclear to you?",
+          "chinese": "您还有什么不清楚的地方吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes. I do not fully understand what the machine measures.",
+          "chinese": "是的。我不太明白机器测量的是什么。"
+        },
+        {
+          "role": "Customer",
+          "english": "Does it measure punch power, speed, accuracy, reaction time, punch type, or form?",
+          "chinese": "它是否测量出拳力量、速度、准确性、反应时间、出拳类型或形状？"
+        },
+        {
+          "role": "Customer",
+          "english": "For example, can it tell the difference between a jab and a cross, or does it only know that I hit a target? Also, does it track footwork, or only upper-body movement?",
+          "chinese": "例如，它能否区分刺拳和交叉拳，还是只知道我击中了目标？另外，它是跟踪步法，还是仅跟踪上身运动？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Is there any feature you don't really understand?",
+          "chinese": "有什么功能是您不太了解的吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "The \"aerial combat exercises\" phrase is unclear. Sorry, what does aerial mean here?",
+          "chinese": "“空中格斗练习”一词不清楚。抱歉，这里的空中是什么意思？"
+        },
+        {
+          "role": "Customer",
+          "english": "Do you mean shadowboxing in the air, without hitting a pad?",
+          "chinese": "你的意思是在空中打空击而不用打拳垫吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Or do you mean a virtual opponent? If it is just punching air, I understand shadowboxing.",
+          "chinese": "或者你指的是虚拟对手？如果只是打空气，我就理解空击了。"
+        },
+        {
+          "role": "Customer",
+          "english": "But \"aerial combat\" sounds like a video game or maybe something in the air. I would not use that wording with customers.",
+          "chinese": "但“空中格斗”听起来像是电子游戏或者空中的东西。我不会对客户使用这种措辞。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "That's helpful. Anything else unclear?",
+          "chinese": "这很有帮助。还有什么不清楚的吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "\"Literbox\" is also confusing. Do you mean Liteboxer, like the rhythm boxing product?",
+          "chinese": "“Literbox”也令人困惑。你指的是Liteboxer，比如节奏拳击产品吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Or is Literbox a separate mode? If a customer doesn't already know the reference, they may not understand it.",
+          "chinese": "或者 Literbox 是一个单独的模式？如果客户还不知道参考信息，他们可能无法理解。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Is there anything that concerns you? For example, the safety, the noise, or whether it is useful enough.",
+          "chinese": "有什么让您担心的吗？比如安全性，噪音，或者是否足够有用。"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, several concerns. First is safety, especially with the moving arm.",
+          "chinese": "是的，有几个问题。首先是安全，尤其是移动臂。"
+        },
+        {
+          "role": "Customer",
+          "english": "Even if it is soft, I would worry about my dog walking near it or someone standing too close.",
+          "chinese": "即使它很软，我也会担心我的狗走近它或有人站得太近。"
+        },
+        {
+          "role": "Customer",
+          "english": "Second is noise. Punching and mechanical movement could be loud in an apartment.",
+          "chinese": "其次是噪音。在公寓里，拳打脚踢和机械运动可能会很吵。"
+        },
+        {
+          "role": "Customer",
+          "english": "Third is usefulness. I need to know if it really improves technique or if it is just cardio with a boxing theme.",
+          "chinese": "三是实用性。我需要知道它是否真的能提高技术，还是只是以拳击为主题的有氧运动。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Anything else?",
+          "chinese": "还要别的吗？"
+        }
+      ]
+    },
+    {
+      "id": "jabx-08",
+      "title": "Part 8",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 8",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 388,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Cleaning and smell. Boxing gloves get sweaty, and if the device has pads or surfaces people hit, they need to be easy to clean.",
+          "chinese": "清洁和气味。拳击手套容易出汗，如果设备上有会被人击打的垫子或表面，则它们需要易于清洁。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, I would worry about durability. If I throw hard crosses or hooks, will the mechanism loosen over time? What happens if someone hits from a bad angle?",
+          "chinese": "另外，我会担心耐用性。如果我投掷有力的后手直拳或勾拳，随着时间的推移，该装置会松动吗？如果有人从不好的角度撞击会发生什么？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Where would you like to put it in your home?",
+          "chinese": "您想把它放在家里的什么地方？"
+        },
+        {
+          "role": "Customer",
+          "english": "Probably in a spare room or home office, not the living room.",
+          "chinese": "可能在空闲房间或家庭办公室，而不是客厅。"
+        },
+        {
+          "role": "Customer",
+          "english": "It looks too much like exercise equipment to keep in the main living space.",
+          "chinese": "它看起来太像健身器材了，不适合放在主要的生活空间中。"
+        },
+        {
+          "role": "Customer",
+          "english": "If it folds or has a small footprint, that helps. But if it needs a large safety zone around it, that becomes hard.",
+          "chinese": "如果它可以折叠或占地面积很小，那就有帮助了。但如果它周围需要一个大的安全区，那就变得很困难。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Would it be in a home gym, the living room, or a work room?",
+          "chinese": "是在家庭健身房、客厅还是工作室？"
+        },
+        {
+          "role": "Customer",
+          "english": "Work room, maybe. A home gym would be ideal, but I don't have a dedicated gym room.",
+          "chinese": "工作室，也许吧。家庭健身房是理想的选择，但我没有专门的健身房。"
+        },
+        {
+          "role": "Customer",
+          "english": "In the living room, I would worry about furniture, pets, and noise.",
+          "chinese": "在客厅，我会担心家具、宠物和噪音。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Would you like to use it with your family or friends?",
+          "chinese": "您想与家人或朋友一起使用吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "With my wife occasionally, yes. With friends, maybe as a fun demo.",
+          "chinese": "偶尔和我妻子在一起，是的。与朋友一起，也许作为一个有趣的演示。"
+        },
+        {
+          "role": "Customer",
+          "english": "But realistically, most workouts would be solo. I would not buy it because friends can use it.",
+          "chinese": "但实际上，大多数锻炼都是单独进行的。我不会购买它，因为朋友可以使用它。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would buy it because I personally use it three or four times a week.",
+          "chinese": "我会购买它，因为我个人每周使用它三到四次。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Does the boxing feature make the product more attractive to you, or does it create some hesitation?",
+          "chinese": "拳击功能是否让产品对您更有吸引力，还是让您犹豫不决？"
+        },
+        {
+          "role": "Customer",
+          "english": "Both. Boxing makes it more attractive because it is more engaging than normal cardio.",
+          "chinese": "两个都。拳击使其更具吸引力，因为它比普通的有氧运动更具吸引力。"
+        },
+        {
+          "role": "Customer",
+          "english": "But it also creates hesitation because boxing has technique. If the product teaches bad habits, I would not want that.",
+          "chinese": "但这也造成了犹豫，因为拳击有技术。如果该产品教给我坏习惯，我不会希望这样。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, some people may feel boxing is aggressive or intimidating. For me it is a positive, but for my wife it might be a barrier.",
+          "chinese": "此外，有些人可能会觉得拳击具有攻击性或令人生畏。对我来说这是积极的，但对我的妻子来说这可能是一个障碍。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Let's bring this back to JabX. I want to show you a few possible modules.",
+          "chinese": "让我们把这个问题带回 JabX。我想向您展示一些可能的模块。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Some are small add-ons, and one is more about the core workout experience.",
+          "chinese": "有些是小的附加项目，还有一个更多的是关于核心锻炼体验。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "For each one, I'd like to know whether it would make you use JabX more often, or whether it feels too expensive or too complicated.",
+          "chinese": "对于每一项，我想知道它是否会让您更频繁地使用 JabX，或者是否感觉太昂贵或太复杂。"
+        },
+        {
+          "role": "Customer",
+          "english": "Okay. I will probably be strict here, because add-ons can make a product feel messy.",
+          "chinese": "好的。我在这里可能会很严格，因为附加组件会让产品感觉很混乱。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "One small add-on is a glove dryer built into the device. What do you think?",
+          "chinese": "一个小的附加组件是设备内置的手套烘干机。你怎么认为？"
+        },
+        {
+          "role": "Customer",
+          "english": "I understand the problem. Gloves get gross.",
+          "chinese": "我明白这个问题。手套变得很恶心。"
+        },
+        {
+          "role": "Customer",
+          "english": "But a built-in glove dryer is not a big selling point for me.",
+          "chinese": "但内置手套烘干机对我来说并不是一个大卖点。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-09",
+      "title": "Part 9",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 9",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 417,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "I usually use hand wraps and let gloves air out. If the dryer is quiet and automatic, nice, but I would not buy the product because of it.",
+          "chinese": "我通常使用手包并让手套通风。如果烘干机安静且自动，那就太好了，但我不会因此而购买该产品。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If this added about 50 dollars to the price, would you still want it?",
+          "chinese": "如果这增加了大约 50 美元的价格，您还会想要它吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe, but only if it is well integrated and does not make the device bigger.",
+          "chinese": "也许吧，但前提是它集成得很好并且不会使设备变得更大。"
+        },
+        {
+          "role": "Customer",
+          "english": "Fifty dollars is not crazy. But if you ask me to choose between a glove dryer and better coaching content, I choose coaching content.",
+          "chinese": "五十美元并不疯狂。但如果你让我在手套烘干机和更好的辅导内容之间进行选择，我会选择辅导内容。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, if users already own gloves, they may not want to put them into the machine.",
+          "chinese": "此外，如果用户已经拥有手套，他们可能不想将其放入机器中。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Another idea is adding resistance bands, so JabX can support some strength training, not only cardio. What do you think?",
+          "chinese": "另一个想法是添加阻力带，因此 JabX 可以支持一些力量训练，而不仅仅是有氧运动。你怎么认为？"
+        },
+        {
+          "role": "Customer",
+          "english": "This is more interesting than the glove dryer, but I am not fully convinced.",
+          "chinese": "这比手套烘干机更有趣，但我并不完全相信。"
+        },
+        {
+          "role": "Customer",
+          "english": "Resistance bands are cheap, and many people already have them. The value would come from guided programming.",
+          "chinese": "阻力带很便宜，很多人已经拥有了。价值将来自引导编程。"
+        },
+        {
+          "role": "Customer",
+          "english": "For example, after boxing rounds, the app says, \"now do band rows, Pallof press, shoulder external rotations,\" or something that supports boxing muscles and injury prevention. Then it makes sense.",
+          "chinese": "例如，在拳击比赛结束后，应用程序会说“现在做弹力带划船、帕洛夫推举、肩部外旋”，或者一些支持拳击肌肉和预防伤害的活动。那么这就有意义了。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Our courses could also include comprehensive training programs.",
+          "chinese": "我们的课程还可以包括综合培训计划。"
+        },
+        {
+          "role": "Customer",
+          "english": "That is better. If the bands are just attached to the machine, I don't care.",
+          "chinese": "那更好。如果带子只是连接到机器上，我不在乎。"
+        },
+        {
+          "role": "Customer",
+          "english": "But if the program uses them for strength, mobility, shoulder stability, and core work, then it becomes more useful.",
+          "chinese": "但如果该计划将它们用于力量、灵活性、肩部稳定性和核心训练，那么它就会变得更有用。"
+        },
+        {
+          "role": "Customer",
+          "english": "Boxers need rotational power, scapular control, and conditioning, not just punching.",
+          "chinese": "拳击手需要旋转力量、肩胛骨控制和调节能力，而不仅仅是出拳。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If this added about 100 dollars to the price, would it be worth it?",
+          "chinese": "如果这增加了大约100美元的价格，值得吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "I am on the fence. One hundred dollars for bands alone feels too expensive.",
+          "chinese": "我在栅栏上。光是乐队的一百美元就感觉太贵了。"
+        },
+        {
+          "role": "Customer",
+          "english": "One hundred dollars for bands plus good courses and sensors that count reps or check range of motion could be worth it.",
+          "chinese": "一百美元的弹力带加上好的课程和用于计算次数或检查运动范围的传感器可能是值得的。"
+        },
+        {
+          "role": "Customer",
+          "english": "But if it is just two bands clipped to the machine, no.",
+          "chinese": "但如果只是将两条带子夹在机器上，则不行。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Another idea is a body fat scale. It would be installed under the machine, and it would automatically weigh you and transmit the data every time you use it.",
+          "chinese": "另一个想法是体脂秤。它将安装在机器下方，每次使用时它都会自动对您进行称重并传输数据。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "This way, you would not need to manually enter the data every day.",
+          "chinese": "这样，您就不需要每天手动输入数据。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "The data could also help motivate you to stick with the training and make the workouts more effective.",
+          "chinese": "这些数据还可以帮助激励您坚持训练并使锻炼更加有效。"
+        },
+        {
+          "role": "Customer",
+          "english": "I understand the idea, but I actually don't like it much.",
+          "chinese": "我理解这个想法，但实际上我不太喜欢它。"
+        },
+        {
+          "role": "Customer",
+          "english": "I already have a smart scale in the bathroom. Weighing myself under a boxing machine feels a little odd.",
+          "chinese": "我的浴室里已经有一个智能体重秤。在拳击机下称重感觉有点奇怪。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, body fat scales are not very accurate for body fat percentage. They are okay for trends, but not precise.",
+          "chinese": "此外，体脂秤对于体脂百分比的测量也不是很准确。它们适合趋势，但不精确。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If this added about 100 dollars to the price, would it be worth it?",
+          "chinese": "如果这增加了大约100美元的价格，值得吗？"
+        }
+      ]
+    },
+    {
+      "id": "jabx-10",
+      "title": "Part 10",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 10",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 424,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Not for me. I would rather sync with Apple Health, Google Fit, Garmin, Fitbit, or Withings.",
+          "chinese": "不适合我。我更愿意与 Apple Health、Google Fit、Garmin、Fitbit 或 Withings 同步。"
+        },
+        {
+          "role": "Customer",
+          "english": "Let me use my existing scale. A built-in scale could be a nice convenience for some users, but I would not pay 100 dollars for it.",
+          "chinese": "让我使用现有的秤。内置秤对于某些用户来说可能很方便，但我不会花 100 美元买它。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Do you already have a body fat scale at home?",
+          "chinese": "您家里已经有体脂秤了吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes. I have a Withings scale.",
+          "chinese": "是的。我有一个 Withings 体重秤。"
+        },
+        {
+          "role": "Customer",
+          "english": "It syncs to my phone and Apple Health. I look at weight trend, not daily body fat numbers.",
+          "chinese": "它会同步到我的手机和 Apple Health。我关注的是体重趋势，而不是每日的体脂数字。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Would you consider buying one separately, or would you trust us to provide it?",
+          "chinese": "您会考虑单独购买一个，还是相信我们会提供它？"
+        },
+        {
+          "role": "Customer",
+          "english": "I would trust a dedicated scale brand more than a boxing machine brand for weight tracking.",
+          "chinese": "在体重追踪方面，我更信任专用的体重秤品牌，而不是拳击机品牌。"
+        },
+        {
+          "role": "Customer",
+          "english": "That may sound harsh, but it is true. If JabX focuses on boxing, I want you to be excellent at boxing. I don't need you to also become my scale company.",
+          "chinese": "这听起来可能很刺耳，但却是事实。如果 JabX 专注于拳击，我希望你在拳击方面表现出色。我不需要你也成为我的规模公司。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Does your body fat scale sync with your phone and integrate with Apple Health or Google Health?",
+          "chinese": "您的体脂秤是否与手机同步并与 Apple Health 或 Google Health 集成？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes, it syncs with Apple Health. For me, integration is more important than having your own scale.",
+          "chinese": "是的，它与 Apple Health 同步。对我来说，整合比拥有自己的规模更重要。"
+        },
+        {
+          "role": "Customer",
+          "english": "I want the app to pull weight, heart rate, active calories, maybe HRV or resting heart rate, and then adjust the training plan.",
+          "chinese": "我希望应用程序能够显示体重、心率、活动卡路里、HRV 或静息心率，然后调整训练计划。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "The last part is the robot arm. It is active and can guide you to do squats and dodges, just like a treadmill keeps you running.",
+          "chinese": "最后一部分是机器人手臂。它是主动的，可以引导你进行深蹲和闪避，就像跑步机让你跑步一样。"
+        },
+        {
+          "role": "Customer",
+          "english": "Sorry, can you explain the treadmill comparison again? A treadmill forces the pace because the belt moves. How does the arm force me to move?",
+          "chinese": "抱歉，您能再解释一下跑步机的比较吗？跑步机由于皮带的移动而迫使步伐。手臂如何迫使我移动？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Let us give you a demonstration. I will be the robot, and [name] will be the user.",
+          "chinese": "让我们给您演示一下。我将是机器人，[名字]将是用户。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "The arm is soft, so it should not cause injury. When the arm swings over, the person dodges.",
+          "chinese": "手臂很软，因此不会造成伤害。手臂一挥过去，人就躲开了。"
+        },
+        {
+          "role": "Customer",
+          "english": "Okay, I see. So it is like a defensive cue.",
+          "chinese": "好吧，我明白了。所以这就像一种防御暗示。"
+        },
+        {
+          "role": "Customer",
+          "english": "The arm comes in, and I have to slip, duck, or roll under it.",
+          "chinese": "手臂进来了，我必须在它下面滑行、躲闪或滚滚。"
+        },
+        {
+          "role": "Customer",
+          "english": "That is actually the most unique part of the product. Most home boxing devices only train offense. Defense is hard to train alone.",
+          "chinese": "这实际上是该产品最独特的部分。大多数家庭拳击设备仅训练进攻。防守很难单独训练。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What do you think of it?",
+          "chinese": "你觉得怎么样？"
+        },
+        {
+          "role": "Customer",
+          "english": "Conceptually, it is cool. It could train reaction time, head movement, level changes, and defensive habits.",
+          "chinese": "从概念上讲，它很酷。它可以训练反应时间、头部运动、水平变化和防守习惯。"
+        },
+        {
+          "role": "Customer",
+          "english": "For example, after a jab-cross, the arm could cue me to slip outside, then come back with a hook.",
+          "chinese": "例如，在刺拳后手直拳后，手臂可能会提示我溜到外面，然后用勾拳回来。"
+        },
+        {
+          "role": "Customer",
+          "english": "That feels more like boxing. But I am also worried it may feel like a gimmick if the timing is not natural.",
+          "chinese": "这感觉更像是拳击。但我也担心，如果时机不自然，这可能会让人觉得是个噱头。"
+        },
+        {
+          "role": "Customer",
+          "english": "In boxing, defense is connected to distance, rhythm, and opponent intention. A robotic arm needs to feel responsive, not random.",
+          "chinese": "在拳击中，防守与距离、节奏和对手意图有关。机械臂需要感觉灵敏，而不是随机的。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If this added about 800 dollars to the price, would it be worth it?",
+          "chinese": "如果这增加了大约800美元的价格，值得吗？"
+        }
+      ]
+    },
+    {
+      "id": "jabx-11",
+      "title": "Part 11",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 11",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 384,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "That is a lot. I would not pay 800 dollars just for the arm unless it is the core reason JabX is better than everything else.",
+          "chinese": "那是很多。我不会仅仅为了这个手臂就花 800 美元，除非这是 JabX 比其他一切都更好的核心原因。"
+        },
+        {
+          "role": "Customer",
+          "english": "If the arm is accurate, safe, durable, quiet, and deeply integrated into programs, maybe.",
+          "chinese": "如果手臂准确、安全、耐用、安静并且深度集成到程序中，也许可以。"
+        },
+        {
+          "role": "Customer",
+          "english": "But if it is just \"duck when the arm comes,\" then no.",
+          "chinese": "但如果只是“手臂来了就躲起来”，那就不行了。"
+        },
+        {
+          "role": "Customer",
+          "english": "At 800 dollars, I would compare it to buying many months of real boxing classes.",
+          "chinese": "800 美元，我会将其与购买数月的真正拳击课程进行比较。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Would the soft arm reduce your safety concern?",
+          "chinese": "软臂会减少您的安全担忧吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Somewhat, but not completely. I would want to see certifications, emergency stop, child lock, pet detection if possible, speed limits for beginners, and clear space requirements.",
+          "chinese": "有点，但不完全。我想查看认证、紧急停止、儿童锁、宠物检测（如果可能）、初学者的速度限制以及明确的空间要求。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, I would want to know what happens if I move the wrong way or freeze.",
+          "chinese": "另外，我想知道如果我移动方向错误或冻结会发生什么。"
+        },
+        {
+          "role": "Customer",
+          "english": "Does it stop? Does it keep swinging?",
+          "chinese": "它停止了吗？是否一直摇摆？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If you decided to buy JabX, what would be the main reason?",
+          "chinese": "如果您决定购买 JabX，主要原因是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "The main reason would be that it gives me a coached boxing workout at home that is more engaging than rowing or running.",
+          "chinese": "主要原因是它让我可以在家进行拳击训练，比划船或跑步更有吸引力。"
+        },
+        {
+          "role": "Customer",
+          "english": "Specifically, I would buy it if it combines structured rounds, punch tracking, defensive movement, heart-rate-based training, and progress over time.",
+          "chinese": "具体来说，如果它结合了结构化回合、出拳跟踪、防御运动、基于心率的训练和随着时间的推移取得的进步，我会购买它。"
+        },
+        {
+          "role": "Customer",
+          "english": "I need to feel like I am getting fitter and a little better at boxing, not just burning calories once.",
+          "chinese": "我需要感觉自己变得越来越健康，拳击技术也越来越好，而不仅仅是消耗一次卡路里。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What is the price above which you would not want to buy it, and below which you would also not want to buy it?",
+          "chinese": "价格是多少，高于该价格您就不想购买，低于该价格您也不想购买？"
+        },
+        {
+          "role": "Customer",
+          "english": "Without the robot arm, if it is mainly a smart boxing cardio device, above 1,200 dollars would make me hesitate a lot.",
+          "chinese": "如果没有机械臂，如果主要是智能拳击有氧设备，1200美元以上会让我犹豫不决。"
+        },
+        {
+          "role": "Customer",
+          "english": "Around 700 to 900 dollars feels more realistic to consider. Below 300 or 400 dollars, I would worry the hardware is cheap or the sensors are not accurate.",
+          "chinese": "考虑700到900美元左右感觉更现实。低于 300 或 400 美元，我会担心硬件便宜或传感器不准确。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "And with the robot arm?",
+          "chinese": "还有机器人手臂？"
+        },
+        {
+          "role": "Customer",
+          "english": "With a good robot arm, maybe 1,500 dollars is the upper edge for me.",
+          "chinese": "有了一个好的机械臂，也许 1500 美元对我来说已经是上限了。"
+        },
+        {
+          "role": "Customer",
+          "english": "Above 1,800 or 2,000 dollars, I would probably choose a gym membership or personal training instead.",
+          "chinese": "超过 1,800 或 2,000 美元，我可能会选择健身房会员资格或个人训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, subscription matters. If the hardware is 1,500 dollars and the subscription is 39 dollars a month, that feels heavy.",
+          "chinese": "此外，订阅也很重要。如果硬件是 1500 美元，订阅费是每月 39 美元，那就感觉很沉重。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Next, I'll read a list of possible features. Please tell me the top three features that interest you the most, and why.",
+          "chinese": "接下来，我将阅读可能的功能列表。请告诉我您最感兴趣的三个功能及其原因。"
+        },
+        {
+          "role": "Customer",
+          "english": "Okay.",
+          "chinese": "好的。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number one: combined mechanical combat exercises.",
+          "chinese": "第一：综合机械格斗练习。"
+        },
+        {
+          "role": "Customer",
+          "english": "I need to understand that phrase. Do you mean the machine physically interacts with me, like targets or moving arms?",
+          "chinese": "我需要理解这句话。您的意思是机器与我进行物理交互，例如目标或移动手臂？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Yes, mechanical movement that supports combat-style training.",
+          "chinese": "是的，支持战斗式训练的机械运动。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-12",
+      "title": "Part 12",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 12",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 327,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Then yes, that is interesting, but the wording is not clear.",
+          "chinese": "是的，这很有趣，但措辞不清楚。"
+        },
+        {
+          "role": "Customer",
+          "english": "I might call it \"interactive boxing drills\" or \"robot-guided boxing drills.\"",
+          "chinese": "我可以将其称为“交互式拳击练习”或“机器人引导的拳击练习”。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number two: aerial combat exercises.",
+          "chinese": "第二：空中格斗练习。"
+        },
+        {
+          "role": "Customer",
+          "english": "I still don't understand that one. If it means shadowboxing, just say shadowboxing.",
+          "chinese": "我还是不太明白那个。如果指的是空击，就说空击吧。"
+        },
+        {
+          "role": "Customer",
+          "english": "If it means punching without contact, say \"non-contact boxing drills.\" \"Aerial combat\" sounds like airplanes or a fantasy game.",
+          "chinese": "如果它意味着无接触拳击，请说“非接触拳击训练”。 “空中格斗”听起来像飞机或奇幻游戏。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number three: boxing classes, roughly equivalent to online boxing team classes.",
+          "chinese": "第三：拳击课程，大致相当于在线拳击队课程。"
+        },
+        {
+          "role": "Customer",
+          "english": "That is important. Content quality matters a lot.",
+          "chinese": "这很重要。内容质量非常重要。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would want beginner, intermediate, and advanced classes, plus programs like \"four-week boxing cardio,\" \"fat loss HIIT,\" \"defensive basics,\" and \"footwork fundamentals.\"",
+          "chinese": "我想要初级、中级和高级课程，以及“四周拳击有氧运动”、“减脂 HIIT”、“防御基础知识”和“步法基础知识”等课程。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would also want coaches who explain technique, not just shout motivation.",
+          "chinese": "我还希望教练能解释技术，而不仅仅是喊叫动机。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number four: Literbox.",
+          "chinese": "第四：Literbox。"
+        },
+        {
+          "role": "Customer",
+          "english": "Sorry, I don't know what that means. Do you mean Liteboxer-style rhythm punching?",
+          "chinese": "抱歉，我不知道这意味着什么。您是指 Liteboxer 风格的节奏拳击吗？"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Yes, something like rhythm boxing.",
+          "chinese": "是的，比如节奏拳击。"
+        },
+        {
+          "role": "Customer",
+          "english": "Then I would say rhythm boxing mode. I like it as a fun mode, but it is not my top feature.",
+          "chinese": "然后我会说节奏拳击模式。我喜欢它作为一种有趣的模式，但这不是我的首要功能。"
+        },
+        {
+          "role": "Customer",
+          "english": "It might help with reaction and timing, but if it is only hitting lights to music, I get bored after a while.",
+          "chinese": "它可能有助于反应和时机，但如果只是随着音乐打灯光，一段时间后我就会感到无聊。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number five: movement correction, where AI coaches tell you what you did wrong and how to adjust.",
+          "chinese": "第五：动作纠正，人工智能教练告诉你做错了什么以及如何调整。"
+        },
+        {
+          "role": "Customer",
+          "english": "This is very interesting, if it works. AI form correction could be a major reason to buy.",
+          "chinese": "如果可行的话，这非常有趣。人工智能形状校正可能是购买的主要原因。"
+        },
+        {
+          "role": "Customer",
+          "english": "But it has to be specific. Don't just say \"good job\" or \"try harder.\"",
+          "chinese": "但它必须是具体的。不要只说“干得好”或“再努力一点”。"
+        },
+        {
+          "role": "Customer",
+          "english": "Tell me, \"your right hand drops after the cross,\" \"you are leaning forward,\" \"your hook is too wide,\" or \"you are not rotating your hips.\" That would feel valuable.",
+          "chinese": "告诉我，“你的右手在后手直拳后落下”，“你向前倾斜”，“你的勾拳太宽”，或者“你没有旋转你的臀部”。那会感觉很有价值。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number six: sparring with a robot, mainly for entertainment.",
+          "chinese": "第六：和机器人对打，主要是为了娱乐。"
+        },
+        {
+          "role": "Customer",
+          "english": "Entertainment sparring sounds fun, but also a little risky from a positioning perspective.",
+          "chinese": "娱乐实战对练听起来很有趣，但从定位的角度来看也有点冒险。"
+        },
+        {
+          "role": "Customer",
+          "english": "I don't want customers to think they can learn real sparring at home from a robot.",
+          "chinese": "我不希望顾客认为他们可以在家里向机器人学习真正的拳击。"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe call it \"reaction sparring\" or \"defensive challenge\" instead of sparring.",
+          "chinese": "也许称其为“反应实战对练”或“防御挑战”而不是实战对练。"
+        },
+        {
+          "role": "Customer",
+          "english": "Real sparring involves another human, range, feints, timing, pressure, and unpredictability.",
+          "chinese": "真正的拳击比赛涉及另一个人、射程、佯攻、时机、压力和不可预测性。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number seven: data visualization, including training reports such as calories, duration, and performance evaluation.",
+          "chinese": "第七：数据可视化，包括卡路里、持续时间和表现评估等训练报告。"
+        }
+      ]
+    },
+    {
+      "id": "jabx-13",
+      "title": "Part 13",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 13",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 350,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Useful, but basic. Calories are always an estimate, so I don't trust them too much.",
+          "chinese": "有用，但很基础。卡路里始终是一个估计值，所以我不太相信它们。"
+        },
+        {
+          "role": "Customer",
+          "english": "I care more about consistency, heart-rate zones, punch volume, punch speed, accuracy, reaction time, and progress by round.",
+          "chinese": "我更关心一致性、心率区、出拳量、出拳速度、准确性、反应时间和回合进度。"
+        },
+        {
+          "role": "Customer",
+          "english": "A good report would show, for example, my jab accuracy improved, my average punch speed stayed higher in round six, or my recovery heart rate improved.",
+          "chinese": "一份好的报告会显示，例如，我的刺拳准确度有所提高，我的平均出拳速度在第六轮中保持较高，或者我的恢复心率有所改善。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Number eight: smart exercise plans, based on your exercise goals and your current physical condition.",
+          "chinese": "第八：根据您的锻炼目标和当前的身体状况制定明智的锻炼计划。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also very important. I don't want a library of random classes only.",
+          "chinese": "也非常重要。我不想要一个仅包含随机类的库。"
+        },
+        {
+          "role": "Customer",
+          "english": "I want the system to tell me what to do today.",
+          "chinese": "我希望系统告诉我今天要做什么。"
+        },
+        {
+          "role": "Customer",
+          "english": "If my readiness is low, maybe it gives me technique and Zone 2 work.",
+          "chinese": "如果我的准备程度较低，也许它可以给我技术和 2 区工作。"
+        },
+        {
+          "role": "Customer",
+          "english": "If I slept well and my HRV is normal, maybe it gives me HIIT rounds. That would feel smart.",
+          "chinese": "如果我睡得好并且我的 HRV 正常，也许它会给我进行 HIIT 训练。那会感觉很聪明。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Please list the top three features that interest you the most.",
+          "chinese": "请列出您最感兴趣的前三个功能。"
+        },
+        {
+          "role": "Customer",
+          "english": "My top three would be movement correction, smart exercise plans, and the robot-guided defensive drills.",
+          "chinese": "我的前三名是动作矫正、智能锻炼计划和机器人引导的防御训练。"
+        },
+        {
+          "role": "Customer",
+          "english": "I am not sure whether to call the third one sparring with a robot, because I don't like the word sparring here.",
+          "chinese": "我不确定是否将第三个称为与机器人实战对练，因为我不喜欢这里的实战对练这个词。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What is your number one feature?",
+          "chinese": "你的第一大特点是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Number one is movement correction. If the AI coach can really tell me what I am doing wrong and how to adjust, that is the biggest value.",
+          "chinese": "第一个是运动校正。如果AI教练真的能告诉我做错了什么，如何调整，那就是最大的价值。"
+        },
+        {
+          "role": "Customer",
+          "english": "That is what I cannot get from a normal bag or a YouTube video.",
+          "chinese": "这是我无法从普通包或 YouTube 视频中获得的。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What is your number two?",
+          "chinese": "你的第二号是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Number two is smart exercise plans. The reason is consistency.",
+          "chinese": "第二是明智的锻炼计划。原因是一致性。"
+        },
+        {
+          "role": "Customer",
+          "english": "I don't want to think. I want the product to say, \"Alex, today you have a 28-minute boxing cardio session, with three rounds of jab-cross-hook, two defensive rounds, and a short core finisher.\"",
+          "chinese": "我不想去想。我想让产品说，“亚历克斯，今天你有一个 28 分钟的拳击有氧运动，包括三轮刺拳交叉勾拳、两轮防守和一个短核心终结动作。”"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What is your number three?",
+          "chinese": "你的第三号是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Number three is robot-guided defensive drills, if the arm is actually good.",
+          "chinese": "第三是机器人引导的防御训练，如果手臂真的很好的话。"
+        },
+        {
+          "role": "Customer",
+          "english": "Defense is unique. Slipping, ducking, rolling, and level changes make boxing feel more real.",
+          "chinese": "防守是独一无二的。滑动、闪避、滚动和水平变化让拳击感觉更加真实。"
+        },
+        {
+          "role": "Customer",
+          "english": "But again, if the arm adds too much cost, I may choose a cheaper version without it.",
+          "chinese": "但同样，如果手臂增加了太多成本，我可能会选择没有它的更便宜的版本。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Why did you choose those?",
+          "chinese": "你为什么选择这些？"
+        },
+        {
+          "role": "Customer",
+          "english": "Because they solve real problems. Movement correction solves the \"am I doing this right?\"",
+          "chinese": "因为他们解决的是实际问题。动作矫正解决了“我这样做对吗？”的问题。"
+        },
+        {
+          "role": "Customer",
+          "english": "problem. Smart plans solve the \"what should I do today?\"",
+          "chinese": "问题。智能计划解决“我今天应该做什么？”"
+        }
+      ]
+    },
+    {
+      "id": "jabx-14",
+      "title": "Part 14",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 14",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 383,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "problem. Defensive drills solve the \"boxing at home is only punching\" problem. The other features are nice, but less essential.",
+          "chinese": "问题。防守演练解决了“在家打拳只是出拳”的问题。其他功能都不错，但不太重要。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What about data visualization?",
+          "chinese": "数据可视化呢？"
+        },
+        {
+          "role": "Customer",
+          "english": "I like data, but data alone does not make me work out.",
+          "chinese": "我喜欢数据，但仅靠数据并不能让我锻炼身体。"
+        },
+        {
+          "role": "Customer",
+          "english": "A report is useful after the workout, but coaching and planning make me start the workout. I would not pay much extra only for charts.",
+          "chinese": "锻炼后的报告很有用，但指导和计划让我开始锻炼。我不会只为图表支付太多额外费用。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What about the glove dryer?",
+          "chinese": "手套烘干机怎么样？"
+        },
+        {
+          "role": "Customer",
+          "english": "Nice but not essential. Honestly, it feels like something the product team likes because it is clever, but I am not sure customers will care enough.",
+          "chinese": "不错，但不是必需的。老实说，这感觉像是产品团队喜欢的东西，因为它很聪明，但我不确定客户是否会足够关心。"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe serious boxing users care about glove hygiene, but many home users may not use real gloves often.",
+          "chinese": "也许认真的拳击用户关心手套卫生，但许多家庭用户可能不经常使用真正的手套。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "What about the body fat scale?",
+          "chinese": "体脂秤呢？"
+        },
+        {
+          "role": "Customer",
+          "english": "Not useful for me. I would remove it from the core product.",
+          "chinese": "对我来说没用。我会将其从核心产品中删除。"
+        },
+        {
+          "role": "Customer",
+          "english": "Integrations are better. Apple Health, Google Health, Garmin, Fitbit, Strava, Withings. Let users connect what they already have.",
+          "chinese": "集成效果更好。苹果健康、谷歌健康、Garmin、Fitbit、Strava、Withings。让用户连接他们已有的东西。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If you wanted to recommend JabX to a friend, what kind of person would they be?",
+          "chinese": "如果您想向朋友推荐 JabX，他们会是什么样的人？"
+        },
+        {
+          "role": "Customer",
+          "english": "I would recommend it to someone who likes boxing-style workouts but does not have time to go to a boxing gym.",
+          "chinese": "我会把它推荐给那些喜欢拳击式锻炼但没有时间去拳击馆的人。"
+        },
+        {
+          "role": "Customer",
+          "english": "Probably someone living in a house or a larger apartment, with enough space and some disposable income.",
+          "chinese": "可能有人住在房子或更大的公寓里，有足够的空间和一些可支配收入。"
+        },
+        {
+          "role": "Customer",
+          "english": "They may already use Peloton, Apple Fitness+, Tonal, or a smart rowing machine, but they want something more exciting.",
+          "chinese": "他们可能已经使用 Peloton、Apple Fitness+、Tonal 或智能划船机，但他们想要更令人兴奋的东西。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would not recommend it to a complete minimalist or someone who hates subscriptions.",
+          "chinese": "我不会向完全极简主义者或讨厌订阅的人推荐它。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Is there anyone you would not recommend it to?",
+          "chinese": "有没有你不推荐给的人？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes. I would not recommend it to someone who wants to become a real amateur fighter.",
+          "chinese": "是的。我不会向那些想成为一名真正的业余拳击手的人推荐它。"
+        },
+        {
+          "role": "Customer",
+          "english": "They still need a coach, mitt work, partner drills, and eventually controlled sparring.",
+          "chinese": "他们仍然需要教练、手套工作、搭档训练，以及最终控制的实战对练。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would also not recommend it to someone in a small apartment with downstairs neighbors unless the noise is very low.",
+          "chinese": "我也不会向楼下有邻居的小公寓里的人推荐它，除非噪音非常低。"
+        },
+        {
+          "role": "Customer",
+          "english": "And I would not recommend it to someone who only wants simple weight loss.",
+          "chinese": "我不会向那些只想简单减肥的人推荐它。"
+        },
+        {
+          "role": "Customer",
+          "english": "For that person, a walking pad and nutrition plan may be enough.",
+          "chinese": "对于这个人来说，步行垫和营养计划可能就足够了。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "If you could give one piece of advice to the JabX product team, what would it be?",
+          "chinese": "如果您可以给 JabX 产品团队一条建议，它会是什么？"
+        },
+        {
+          "role": "Customer",
+          "english": "Be very clear about the product promise. Don't try to be a boxing coach, a scale, a strength machine, a rhythm game, and a robot sparring partner all at once.",
+          "chinese": "非常清楚产品承诺。不要试图同时成为拳击教练、秤、力量机器、节奏游戏和机器人实战对练。"
+        },
+        {
+          "role": "Customer",
+          "english": "The strongest promise for me is: \"a coached, interactive boxing workout at home, with real feedback and progression.\"",
+          "chinese": "对我来说最强烈的承诺是：“在家进行有指导的互动拳击锻炼，并提供真实的反馈和进步。”"
+        }
+      ]
+    },
+    {
+      "id": "jabx-15",
+      "title": "Part 15",
+      "titleCn": "",
+      "topic": "JabX Customer Interview Role-play Script - Part 15",
+      "topicCn": "",
+      "taskType": "dialogue",
+      "wordCount": 163,
+      "sentences": [
+        {
+          "role": "Customer",
+          "english": "Build around that. Everything else should support it, not distract from it.",
+          "chinese": "围绕它构建。其他一切都应该支持它，而不是分散它的注意力。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Is there anything else you want to add?",
+          "chinese": "您还有什么要补充的吗？"
+        },
+        {
+          "role": "Customer",
+          "english": "Yes. Please think about onboarding.",
+          "chinese": "是的。请考虑入职。"
+        },
+        {
+          "role": "Customer",
+          "english": "Boxing can be intimidating. A beginner needs to learn stance, guard, how to wrap hands, how to punch without hurting the wrist, and how to move safely.",
+          "chinese": "拳击可能会令人生畏。初学者需要学习站姿、防守、如何缠手、如何出拳而不伤手腕，以及如何安全移动。"
+        },
+        {
+          "role": "Customer",
+          "english": "If the first workout is too intense or too technical, people may quit.",
+          "chinese": "如果第一次锻炼太激烈或技术性太强，人们可能会放弃。"
+        },
+        {
+          "role": "Customer",
+          "english": "Maybe start with a boxing fitness assessment, then recommend a level.",
+          "chinese": "也许从拳击健身评估开始，然后推荐一个级别。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "That's very helpful.",
+          "chinese": "这非常有帮助。"
+        },
+        {
+          "role": "Customer",
+          "english": "Also, please don't overestimate calorie burn. Some fitness apps show huge calorie numbers, and it feels fake.",
+          "chinese": "另外，请不要高估卡路里消耗。一些健身应用程序显示巨大的卡路里数字，感觉很假。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would rather see honest metrics: time in heart-rate zones, completed rounds, consistency streak, reaction time, punch accuracy, and technique notes.",
+          "chinese": "我宁愿看到诚实的指标：心率区的时间、完成的回合、一致性、反应时间、出拳准确性和技术说明。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Thanks for taking the time today. It was really nice to get to know you.",
+          "chinese": "感谢您今天抽出时间。很高兴认识你。"
+        },
+        {
+          "role": "Customer",
+          "english": "Thank you. This was interesting.",
+          "chinese": "谢谢。这很有趣。"
+        },
+        {
+          "role": "Customer",
+          "english": "I would be curious to see how the product develops, especially the movement correction and defensive drill features.",
+          "chinese": "我很想知道该产品如何发展，特别是运动校正和防御训练功能。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Have a good day.",
+          "chinese": "祝你有美好的一天。"
+        },
+        {
+          "role": "Customer",
+          "english": "You too. Bye.",
+          "chinese": "你也是。再见。"
+        },
+        {
+          "role": "Interviewer",
+          "english": "Bye.",
+          "chinese": "再见。"
+        }
+      ]
+    }
+  ]
+}

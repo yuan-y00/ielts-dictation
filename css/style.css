@@ -18,6 +18,10 @@
     --navy-light: #6A8DB5;
     --navy-dark: #2A3F5A;
     --navy-bg: #EBF0F6;
+    --interviewer: #2F6F9F;
+    --interviewer-bg: #EAF4F8;
+    --customer: #7A7F2F;
+    --customer-bg: #F2F5E7;
     --charcoal: #2B2D42;
     --soft-peach: #F4ACB7;
 
@@ -67,6 +71,9 @@ body {
 /* ---- Tabs ---- */
 .section-tabs { display: flex; gap: 6px; padding: 14px 0 10px; flex-wrap: wrap; justify-content: center; }
 .section-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 7px 16px;
     border-radius: 999px;
     border: 1.5px solid var(--navy-light);
@@ -79,6 +86,7 @@ body {
 }
 .section-tab:hover { background: var(--navy); color: var(--cream); border-color: var(--navy); }
 .section-tab.active { background: var(--navy); color: var(--cream); border-color: var(--navy); font-weight: 700; }
+.tab-icon { font-weight: 750; }
 
 /* ---- Section info ---- */
 .section-info {
@@ -113,6 +121,11 @@ body {
 
 /* ---- Cards container ---- */
 .cards-container { display: flex; flex-direction: column; gap: 18px; padding-bottom: 40px; }
+.load-error {
+    padding: 40px;
+    text-align: center;
+    color: #C5644A;
+}
 
 /* ================================================================
    ESSAY BLOCK
@@ -168,12 +181,33 @@ body {
 .sentence-row:last-child { border-bottom: none; }
 .sentence-row.active { background: #FFFCF6; }
 .sentence-row.completed { background: #FAFCF8; }
+.sentence-row.role-interviewer .sentence-main { border-left: 4px solid var(--interviewer); }
+.sentence-row.role-customer .sentence-main { border-left: 4px solid var(--customer); }
 
 .sentence-main {
     flex: 1; padding: 16px 20px;
     display: flex; flex-direction: column; gap: 8px;
     min-width: 0;
 }
+.role-badge {
+    align-self: flex-start;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 750;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+.role-interviewer .role-badge {
+    background: var(--interviewer-bg);
+    color: var(--interviewer);
+}
+.role-customer .role-badge {
+    background: var(--customer-bg);
+    color: var(--customer);
+}
+.role-interviewer .sentence-en { color: #233F53; }
+.role-customer .sentence-en { color: #343720; }
 
 /* English — clean system sans-serif */
 .sentence-en {
@@ -242,6 +276,7 @@ body {
 .btn-icon.pen { color: var(--sage-dark); }
 .btn-icon.pen:hover { background: var(--sage-bg); color: var(--sage-dark); }
 .done-mark { font-size: 1.1rem; }
+.btn-icon-text { font-size: 0.72rem; font-weight: 750; }
 
 @keyframes pulse {
     0%, 100% { box-shadow: 0 0 0 0 rgba(61,90,128,0.4); }

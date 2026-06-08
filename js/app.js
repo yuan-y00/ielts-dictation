@@ -1,22 +1,25 @@
 /**
  * IELTS Dictation Practice
- *
- * nice-pdf inspired layout:
- *   Essay block: badge → topic (h2) → topic CN → title line (small)
- *   Sentence row: en + cn + input (flush) | 🔊 ✏️
- *   Task2 → navy blue  |  Task1 → sage green
+ * Supports multiple learning sections and dialogue role labels.
  */
 
 const App = (() => {
-    let data = null;
+    const DATA_SOURCES = [
+        'data/jabx-interview.json',
+        'data/simon-writing.json',
+    ];
+
+    let sections = [];
+    let currentSectionIndex = 0;
     let activeEid = null;
     let activeIdx = -1;
     let auto = false;
     let busy = false;
 
     const $ = (s) => document.querySelector(s);
-    const $$ = (s) => document.querySelectorAll(s);
     let D = {};
+
+    const currentData = () => sections[currentSectionIndex];
 
     // ======== Init ========
     async function init() {
@@ -35,12 +38,15 @@ const App = (() => {
         auto = s.autoMode || false;
 
         try {
-            const r = await fetch('data/simon-writing.json');
-            if (r.ok) data = await r.json();
+            sections = await loadSections();
         } catch (e) {
-            D.cards.innerHTML = '<p style="padding:40px;text-align:center;color:#C5644A;">⚠️ Failed to load data. Run via local server.</p>';
+            console.warn('[App] Failed to load data:', e);
+            D.cards.innerHTML = '<p class="load-error">Failed to load data. Run via local server.</p>';
             return;
         }
+
+        const savedIndex = sections.findIndex(section => section.id === s.lastSectionId);
+        currentSectionIndex = savedIndex >= 0 ? savedIndex : 0;
 
         renderTabs();
         renderInfo();
@@ -49,49 +55,69 @@ const App = (() => {
         bind();
         restorePos();
 
-        const total = data.essays.reduce((n, e) => n + e.sentences.length, 0);
-        console.log('[App]', data.essays.length, 'essays,', total, 'sentences');
+        const total = sections.reduce((n, section) =>
+            n + section.essays.reduce((m, e) => m + e.sentences.length, 0), 0);
+        console.log('[App]', sections.length, 'sections,', total, 'sentences');
+    }
+
+    async function loadSections() {
+        const loaded = await Promise.all(DATA_SOURCES.map(async (url) => {
+            const r = await fetch(url);
+            if (!r.ok) throw new Error(`Could not load ${url}`);
+            return r.json();
+        }));
+        return loaded;
     }
 
     // ======== Render ========
 
     function renderTabs() {
-        D.tabs.innerHTML = `<button class="section-tab active">${data.icon} ${data.title}</button>`;
+        D.tabs.innerHTML = sections.map((section, index) => `
+            <button class="section-tab ${index === currentSectionIndex ? 'active' : ''}"
+                    data-section="${index}">
+                <span class="tab-icon">${esc(section.icon || '')}</span>
+                <span>${esc(section.title)}</span>
+            </button>
+        `).join('');
     }
 
     function renderInfo() {
-        D.icon.textContent = data.icon;
+        const data = currentData();
+        D.icon.textContent = data.icon || '';
         D.title.textContent = data.title;
         let all = 0, done = 0;
-        for (const e of data.essays)
+        for (const e of data.essays) {
             for (let i = 0; i < e.sentences.length; i++) {
                 all++;
                 if (Storage.isCompleted(e.id, i)) done++;
             }
-        D.pfill.style.width = all ? `${Math.round(done/all*100)}%` : '0%';
+        }
+        D.pfill.style.width = all ? `${Math.round(done / all * 100)}%` : '0%';
         D.ptext.textContent = `${done}/${all}`;
     }
 
     function renderAll() {
-        D.cards.innerHTML = data.essays.map(renderEssay).join('');
+        D.cards.innerHTML = currentData().essays.map(renderEssay).join('');
     }
 
-    // ======== Essay Block ========
+    // ======== Lesson Block ========
 
     function renderEssay(essay) {
-        const t2 = essay.taskType === 'task2';
-        const cls = t2 ? 't2' : 't1';
-        const typeLabel = t2 ? 'Task 2 · 大作文' : `Task 1 · 小作文 · ${essay.chartType || ''}`;
+        const cls = lessonClass(essay);
+        const typeLabel = lessonLabel(essay);
+        const topicCn = essay.topicCn ? `<div class="essay-topic-cn">${esc(essay.topicCn)}</div>` : '';
+        const metaTitle = essay.title ? `<span class="essay-meta-title">${esc(essay.title)}</span>` : '';
+        const metaTitleCn = essay.titleCn ? `<span class="essay-meta-title-cn">${esc(essay.titleCn)}</span>` : '';
 
         return `
         <div class="essay-block ${cls}" id="essay-${essay.id}">
             <div class="essay-header">
-                <div class="essay-topic">${esc(essay.topic)}</div>
-                <div class="essay-topic-cn">${esc(essay.topicCn)}</div>
+                <div class="essay-topic">${esc(essay.topic || essay.title)}</div>
+                ${topicCn}
                 <div class="essay-meta-line">
-                    <span class="essay-meta-type">${typeLabel}</span>
-                    <span class="essay-meta-title">${esc(essay.title)}</span>
-                    <span class="essay-meta-title-cn">${esc(essay.titleCn)}</span>
+                    <span class="essay-meta-type">${esc(typeLabel)}</span>
+                    ${metaTitle}
+                    ${metaTitleCn}
                 </div>
             </div>
             <div class="essay-body">
@@ -100,33 +126,57 @@ const App = (() => {
         </div>`;
     }
 
+    function lessonClass(essay) {
+        if (essay.taskType === 'task2') return 't2';
+        if (essay.taskType === 'task1') return 't1';
+        return 'dialogue';
+    }
+
+    function lessonLabel(essay) {
+        if (essay.taskType === 'task2') return 'Task 2';
+        if (essay.taskType === 'task1') return `Task 1${essay.chartType ? ` - ${essay.chartType}` : ''}`;
+        if (essay.taskType === 'dialogue') return 'Dialogue Practice';
+        return 'Practice';
+    }
+
     // ======== Sentence Row ========
 
     function renderRow(essay, idx, sent) {
         const done = Storage.isCompleted(essay.id, idx);
         const act = essay.id === activeEid && idx === activeIdx;
-        const cls = [done ? 'completed' : '', act ? 'active' : ''].filter(Boolean).join(' ');
+        const rowClasses = [
+            done ? 'completed' : '',
+            act ? 'active' : '',
+            sent.role ? `role-${sent.role.toLowerCase()}` : '',
+        ].filter(Boolean).join(' ');
+        const roleBadge = sent.role
+            ? `<span class="role-badge">${esc(sent.role)}</span>`
+            : '';
+        const chinese = sent.chinese
+            ? `<p class="sentence-cn">${esc(sent.chinese)}</p>`
+            : '';
 
         return `
-        <div class="sentence-row ${cls}" id="row-${essay.id}-${idx}" data-essay="${essay.id}" data-idx="${idx}">
+        <div class="sentence-row ${rowClasses}" id="row-${essay.id}-${idx}" data-essay="${essay.id}" data-idx="${idx}">
             <div class="sentence-main">
+                ${roleBadge}
                 <p class="sentence-en">${esc(sent.english)}</p>
-                <p class="sentence-cn">${esc(sent.chinese)}</p>
+                ${chinese}
                 ${done
                     ? ''
                     : `<textarea class="sentence-input"
                           id="inp-${essay.id}-${idx}"
                           data-essay="${essay.id}" data-idx="${idx}"
-                          placeholder="Type here, press Enter…"
+                          placeholder="Type here, press Enter"
                           rows="1"
                     ></textarea>
                     <div class="sentence-cmp" id="cmp-${essay.id}-${idx}"></div>`}
             </div>
             <div class="sentence-actions">
-                <button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">🔊</button>
+                <button class="btn-icon spk" data-essay="${essay.id}" data-idx="${idx}" title="Play">▶</button>
                 ${done
-                    ? '<span class="done-mark">✅</span>'
-                    : `<button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✏️</button>`}
+                    ? '<span class="done-mark">✓</span>'
+                    : `<button class="btn-icon pen" data-essay="${essay.id}" data-idx="${idx}" title="Copy">✎</button>`}
             </div>
         </div>`;
     }
@@ -134,6 +184,12 @@ const App = (() => {
     // ======== Events ========
 
     function bind() {
+        D.tabs.addEventListener('click', e => {
+            const tab = e.target.closest('.section-tab');
+            if (!tab) return;
+            switchSection(+tab.dataset.section);
+        });
+
         D.cards.addEventListener('click', e => {
             const spk = e.target.closest('.btn-icon.spk');
             if (spk) { speaker(spk.dataset.essay, +spk.dataset.idx); return; }
@@ -158,7 +214,26 @@ const App = (() => {
 
     // ======== Handlers ========
 
-    function findE(eid) { return data?.essays.find(x => x.id === eid); }
+    function switchSection(index) {
+        if (index === currentSectionIndex || !sections[index]) return;
+        currentSectionIndex = index;
+        activeEid = null;
+        activeIdx = -1;
+        Storage.saveSettings({
+            ...Storage.loadSettings(),
+            lastSectionId: currentData().id,
+            lastEid: null,
+            lastIdx: -1,
+        });
+        renderTabs();
+        renderInfo();
+        renderAll();
+        restorePos();
+    }
+
+    function findE(eid) {
+        return currentData()?.essays.find(x => x.id === eid);
+    }
 
     async function speaker(eid, idx) {
         const e = findE(eid);
@@ -187,11 +262,11 @@ const App = (() => {
         busy = true;
         try {
             const e = findE(eid);
-            if (!e?.sentences[idx]) { busy = false; return; }
+            if (!e?.sentences[idx]) return;
             const inp = $(`#inp-${eid}-${idx}`);
-            if (!inp) { busy = false; return; }
+            if (!inp) return;
             const val = inp.value.trim();
-            if (!val) { moveNext(eid, idx); busy = false; return; }
+            if (!val) { moveNext(eid, idx); return; }
 
             const exp = e.sentences[idx].english;
             if (compare(val, exp)) {
@@ -199,18 +274,19 @@ const App = (() => {
                 const row = $(`#row-${eid}-${idx}`);
                 if (row) {
                     row.classList.add('completed');
-                    // Remove input + comparison
                     const inpEl = row.querySelector('.sentence-input');
                     const cmpEl = row.querySelector('.sentence-cmp');
                     if (inpEl) inpEl.remove();
                     if (cmpEl) cmpEl.remove();
-                    // ✏️ → ✅
                     const penBtn = row.querySelector('.btn-icon.pen');
                     if (penBtn) {
-                        penBtn.replaceWith(Object.assign(document.createElement('span'), { className: 'done-mark', textContent: '✅' }));
+                        const done = document.createElement('span');
+                        done.className = 'done-mark';
+                        done.textContent = '✓';
+                        penBtn.replaceWith(done);
                     }
                 }
-                toast('✓ Perfect!', 'ok');
+                toast('Perfect!', 'ok');
                 renderInfo();
                 setTimeout(() => moveNext(eid, idx), 180);
             } else {
@@ -219,25 +295,28 @@ const App = (() => {
                 toast('Check differences below', 'info');
                 setTimeout(() => inp.classList.remove('wrong'), 1500);
             }
-        } finally { busy = false; }
+        } finally {
+            busy = false;
+        }
     }
 
     function moveNext(eid, curIdx) {
-        let e = findE(eid);
-        // Next in same essay
+        const e = findE(eid);
+        if (!e) return;
+
         let ni = curIdx + 1;
         while (ni < e.sentences.length && Storage.isCompleted(e.id, ni)) ni++;
         if (ni < e.sentences.length) {
             setActive(eid, ni);
             focusScroll(eid, ni);
-            // Always play the audio for the next sentence
             setTimeout(() => speaker(eid, ni), 200);
             return;
         }
-        // Next essay
-        const ei = data.essays.findIndex(x => x.id === eid);
-        for (let j = ei + 1; j < data.essays.length; j++) {
-            const ne = data.essays[j];
+
+        const essays = currentData().essays;
+        const ei = essays.findIndex(x => x.id === eid);
+        for (let j = ei + 1; j < essays.length; j++) {
+            const ne = essays[j];
             for (let k = 0; k < ne.sentences.length; k++) {
                 if (!Storage.isCompleted(ne.id, k)) {
                     setActive(ne.id, k);
@@ -247,30 +326,35 @@ const App = (() => {
                 }
             }
         }
-        // Done
-        toast('🎉 All essays complete!', 'ok');
-        activeEid = null; activeIdx = -1;
-        renderAll(); renderInfo();
+
+        toast('Current section complete!', 'ok');
+        activeEid = null;
+        activeIdx = -1;
+        renderAll();
+        renderInfo();
     }
 
     function replay() {
-        if (!activeEid || activeIdx < 0) { toast('Click 🔊 or ✏️ first', 'info'); return; }
+        if (!activeEid || activeIdx < 0) { toast('Click play or copy first', 'info'); return; }
         speaker(activeEid, activeIdx);
     }
 
     function reset() {
-        if (!confirm('Reset ALL progress?')) return;
-        Storage.resetAll();
-        activeEid = null; activeIdx = -1;
-        renderAll(); renderInfo();
-        toast('🔄 Progress reset', 'info');
+        const data = currentData();
+        if (!confirm(`Reset progress for "${data.title}"?`)) return;
+        for (const essay of data.essays) Storage.resetSection(essay.id);
+        activeEid = null;
+        activeIdx = -1;
+        renderAll();
+        renderInfo();
+        toast('Progress reset', 'info');
     }
 
     function toggleAuto() {
         auto = !auto;
         Storage.saveSettings({ ...Storage.loadSettings(), autoMode: auto });
         renderAutoBtn();
-        toast(auto ? '▶ Auto ON' : '⏸ Auto OFF', 'info');
+        toast(auto ? 'Auto ON' : 'Auto OFF', 'info');
     }
 
     // ======== Helpers ========
@@ -280,10 +364,16 @@ const App = (() => {
             const old = $(`#row-${activeEid}-${activeIdx}`);
             if (old) old.classList.remove('active');
         }
-        activeEid = eid; activeIdx = idx;
+        activeEid = eid;
+        activeIdx = idx;
         const row = $(`#row-${eid}-${idx}`);
         if (row) row.classList.add('active');
-        Storage.saveSettings({ ...Storage.loadSettings(), lastEid: eid, lastIdx: idx });
+        Storage.saveSettings({
+            ...Storage.loadSettings(),
+            lastSectionId: currentData().id,
+            lastEid: eid,
+            lastIdx: idx,
+        });
     }
 
     function focusScroll(eid, idx) {
@@ -295,25 +385,28 @@ const App = (() => {
 
     function restorePos() {
         const s = Storage.loadSettings();
+        if (s.lastSectionId !== currentData().id) return;
         if (s.lastEid && s.lastIdx >= 0) {
             const e = findE(s.lastEid);
             if (e && s.lastIdx < e.sentences.length && !Storage.isCompleted(e.id, s.lastIdx)) {
-                activeEid = s.lastEid; activeIdx = s.lastIdx;
+                activeEid = s.lastEid;
+                activeIdx = s.lastIdx;
                 setTimeout(() => {
                     const row = $(`#row-${activeEid}-${activeIdx}`);
-                    if (row) { row.classList.add('active'); row.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+                    if (row) {
+                        row.classList.add('active');
+                        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                 }, 500);
             }
         }
     }
 
     function normalize(s) {
-        // lowercase, normalize whitespace, strip trailing punctuation
-        // Also normalize spacing around punctuation: "word,word" → "word, word"
         return s.trim().toLowerCase()
-            .replace(/[,;:]/g, ' $& ')    // pad commas/semicolons/colons with spaces
-            .replace(/[.!?]+$/g, '')       // drop trailing .!?
-            .replace(/\s+/g, ' ')          // collapse spaces
+            .replace(/[,;:]/g, ' $& ')
+            .replace(/[.!?]+$/g, '')
+            .replace(/\s+/g, ' ')
             .replace(/['']/g, "'")
             .replace(/[""]/g, '"')
             .trim();
@@ -323,10 +416,9 @@ const App = (() => {
         return normalize(a) === normalize(b);
     }
 
-    // Split into tokens, keeping punctuation as separate tokens for comparison
     function tokenize(s) {
         return s.trim().toLowerCase()
-            .replace(/([,;:.!?])/g, ' $1 ')  // split punctuation to own tokens
+            .replace(/([,;:.!?])/g, ' $1 ')
             .replace(/\s+/g, ' ')
             .trim()
             .split(' ');
@@ -341,20 +433,20 @@ const App = (() => {
         const max = Math.max(uw.length, ew.length);
         let h = '';
         for (let i = 0; i < max; i++) {
-            const a = (uw[i] || '');
-            const b = (ew[i] || '');
-            if (i >= uw.length) h += ` <span class="diff-word" style="color:#E07A5F;">[缺]</span>`;
+            const a = uw[i] || '';
+            const b = ew[i] || '';
+            if (i >= uw.length) h += ` <span class="diff-word" style="color:#E07A5F;">[missing]</span>`;
             else if (i >= ew.length) h += ` <span class="diff-word diff-bad">${esc(uw[i])}</span>`;
             else if (a === b) h += ` ${esc(uw[i])}`;
-            else h += ` <span class="diff-word diff-ok" title="参考: ${esc(ew[i])}">${esc(uw[i])}</span>`;
+            else h += ` <span class="diff-word diff-ok" title="Expected: ${esc(ew[i])}">${esc(uw[i])}</span>`;
         }
-        cmp.innerHTML = `<strong>参考:</strong> ${esc(exp)}<br><strong>你写:</strong> ${h.trim()}`;
+        cmp.innerHTML = `<strong>Expected:</strong> ${esc(exp)}<br><strong>You typed:</strong> ${h.trim()}`;
     }
 
     function renderAutoBtn() {
         D.bAuto.innerHTML = auto
-            ? '<span style="font-size:0.9rem;">⏸</span><span>Auto: ON</span>'
-            : '<span style="font-size:0.9rem;">▶</span><span>Auto Dictation</span>';
+            ? '<span class="btn-icon-text">Pause</span><span>Auto: ON</span>'
+            : '<span class="btn-icon-text">Play</span><span>Auto Dictation</span>';
         D.bAuto.classList.toggle('active', auto);
     }
 
@@ -367,6 +459,7 @@ const App = (() => {
     }
 
     function jumpToFirstUndone() {
+        const data = currentData();
         if (!data) return;
         for (const essay of data.essays) {
             for (let i = 0; i < essay.sentences.length; i++) {
@@ -377,7 +470,7 @@ const App = (() => {
                 }
             }
         }
-        toast('🎉 全部完成!', 'ok');
+        toast('Current section complete!', 'ok');
     }
 
     function scrollWatch() {
@@ -387,18 +480,24 @@ const App = (() => {
                 nav = document.createElement('div');
                 nav.className = 'float-nav visible';
                 nav.innerHTML = `
-                    <button class="nav-half" title="跳到未完成">📍</button>
+                    <button class="nav-half" title="Jump to first unfinished">⌖</button>
                     <div class="nav-divider"></div>
-                    <button class="nav-half" title="回到顶部">⬆</button>`;
+                    <button class="nav-half" title="Back to top">↑</button>`;
                 nav.children[0].addEventListener('click', jumpToFirstUndone);
                 nav.children[2].addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
                 document.body.appendChild(nav);
             }
             nav.classList.add('visible');
-        } else if (nav) { nav.classList.remove('visible'); }
+        } else if (nav) {
+            nav.classList.remove('visible');
+        }
     }
 
-    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+    function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s == null ? '' : String(s);
+        return d.innerHTML;
+    }
 
     return { init };
 })();
