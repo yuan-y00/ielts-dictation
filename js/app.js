@@ -6,6 +6,7 @@
 const App = (() => {
     const DATA_SOURCES = [
         'data/jabx-interview.json',
+        'data/ielts-key-sentences.json',
         'data/simon-writing.json',
     ];
 
@@ -136,6 +137,7 @@ const App = (() => {
         if (essay.taskType === 'task2') return 'Task 2';
         if (essay.taskType === 'task1') return `Task 1${essay.chartType ? ` - ${essay.chartType}` : ''}`;
         if (essay.taskType === 'dialogue') return 'Dialogue Practice';
+        if (essay.taskType === 'sentences') return 'Sentence Practice';
         return 'Practice';
     }
 
